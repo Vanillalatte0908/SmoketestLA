@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login -> Access &quot;Home&quot;, &quot;History&quot;, &quot;Pay&quot;, &quot;Inbox&quot;, and &quot;Account&quot; -> Make sure page displayed successfully</description>
+   <name>Access home, history pay inbox and account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9464218f-3ec9-47fb-a17d-733c3428539f</testCaseGuid>
+</TestCaseEntity>
