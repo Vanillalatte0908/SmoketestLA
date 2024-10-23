@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Indonesia'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/Dashboard/android.widget.TextView - Your Balance'), 3)
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - English'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/Dashboard/android.widget.TextView - Home'), 0)
 
 Mobile.closeApplication()
 

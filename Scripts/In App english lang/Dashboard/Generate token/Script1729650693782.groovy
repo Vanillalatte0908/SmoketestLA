@@ -19,9 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Indonesia'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - See All'), 0)
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - English'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - Create Token'), 3)
+
+Mobile.tap(findTestObject('Object Repository/Invalid pin/android.widget.TextView - 1'), 0)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - 2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - 3'), 0)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - 4'), 0)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - 5'), 0)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - 5'), 0)
 
 Mobile.closeApplication()
-

@@ -19,9 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Indonesia'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/bahasa/android.widget.TextView - Profile'), 5)
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - English'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/bahasa/android.widget.TextView - English'), 5)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/bahasa/android.widget.TextView - Indonesia'), 5)
+
+Mobile.waitForElementPresent(findTestObject('DashboardLA/Home/android.widget.TextView - Home'), 5)
 
 Mobile.closeApplication()
 

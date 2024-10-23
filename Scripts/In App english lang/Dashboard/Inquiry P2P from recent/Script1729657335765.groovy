@@ -19,9 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Indonesia'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Send Money'), 2)
 
-Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - English'), 0)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.TextView - Phone Number'), 2)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/android.view.ViewGroup (3)'), 2)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.EditText - 0'), 0)
+
+Mobile.sendKeys(findTestObject('Object Repository/DashboardLA/MyQR and token/android.widget.EditText - 0'), '1')
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.Button - Next'), 0)
+
+Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.Button - Confirm'), 0)
 
 Mobile.closeApplication()
 
