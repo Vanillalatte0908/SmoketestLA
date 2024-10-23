@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Change Language English</name>
+   <name>Click ATM and BCA withdrawal</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a772d3e5-85a4-4bd0-95a6-0314a4e12bf5</testCaseGuid>
+   <testCaseGuid>23aa688d-f5e7-4daa-bede-55b513560273</testCaseGuid>
 </TestCaseEntity>

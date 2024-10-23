@@ -16,14 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.tap(findTestObject('Object Repository/Logout/android.widget.TextView - Profil'), 5)
+Mobile.tap(findTestObject('Object Repository/DashboardLA/Home/android.widget.TextView - Profile'), 0)
 
-Mobile.scrollToText('Pusat bantuan')
+Mobile.scrollToText('Logout')
 
-Mobile.tap(findTestObject('Object Repository/Logout/android.widget.TextView - Keluar'), 5)
+Mobile.waitForElementPresent(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Logout'), 10)
 
-Mobile.closeApplication()
-
+Mobile.tap(findTestObject('Object Repository/DashboardLA/android.widget.TextView - Logout'), 3)

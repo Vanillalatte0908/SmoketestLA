@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - Profil</name>
+   <name>android.widget.TextView - BCA</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,31 +13,31 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>1970f874-51f8-476e-8b27-b17486d533c1</webElementGuid>
+      <webElementGuid>fb7540a8-bea0-4f57-a576-1627dd45db4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>2</value>
-      <webElementGuid>105f26df-32b3-4e74-b48c-7b61feeec996</webElementGuid>
+      <value>1</value>
+      <webElementGuid>c6741db8-44ac-471c-a060-2309dd10ce36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Profil</value>
-      <webElementGuid>680d14f0-77fe-49f4-9358-8bb9249462d7</webElementGuid>
+      <value>BCA</value>
+      <webElementGuid>96d6e47b-21a8-4f40-9ee0-e1c70a50be37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.telkom.mwallet:id/nav_bar_title</value>
-      <webElementGuid>efd8a2e6-18df-4ae9-b0a5-30ca006624eb</webElementGuid>
+      <value>com.telkom.mwallet:id/label_bank_bca</value>
+      <webElementGuid>b4e46286-89f4-4287-be65-898ee38bb538</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.telkom.mwallet</value>
-      <webElementGuid>239130a3-8dba-4790-8bad-2a2fb729c946</webElementGuid>
+      <webElementGuid>981b779e-5a92-46e0-8414-92717bc36865</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>60ad1613-176f-47b7-9899-1f17de5cb99d</webElementGuid>
+      <webElementGuid>c590c8c3-a4da-47fa-bf9c-bfdfa4319034</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ae3078d8-4ec0-4edc-914d-fab339ef6456</webElementGuid>
+      <webElementGuid>ad1ad619-78f0-44c9-8546-dba03d12dad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1de153cd-43f8-49c6-b4c9-5fa52d8c414b</webElementGuid>
+      <webElementGuid>7a9bf3c7-7bcb-4f41-93c5-00bd33ea92f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>16c4a0e0-7afe-4241-8384-49348b8b03a2</webElementGuid>
+      <webElementGuid>40b39321-f72b-40c4-ae94-cdecdc491f40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>57046365-b5e2-45ea-92ff-eeec50ee7d70</webElementGuid>
+      <webElementGuid>1f43d9dc-f694-4dbd-982a-988f1d2df3dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3fcbcece-b377-4c2a-975c-0e58bce528da</webElementGuid>
+      <webElementGuid>704daeda-8330-477d-bd53-de999a5c54e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b5e750ea-01bb-4077-89bf-b71778d8cf95</webElementGuid>
+      <webElementGuid>3bf5da7d-b86e-4525-a0c2-65b772b6ff03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>566ea8c2-1c1b-4c10-b9a7-5fb8887d0681</webElementGuid>
+      <webElementGuid>bcf71e7a-35f6-4c26-8903-13b9357c6f12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>99a1f944-fe3b-4a2d-b6d1-d694e4a6022a</webElementGuid>
+      <webElementGuid>cc411524-3884-44d0-a48f-7c563e73ff02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f8578dc7-ec8d-4701-bb46-732c3b395ff3</webElementGuid>
+      <webElementGuid>ba1f4f1a-b071-48f8-aecb-9136b28b17ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>879</value>
-      <webElementGuid>2104d6a0-5c6a-4673-af56-79edd4b31fc2</webElementGuid>
+      <value>84</value>
+      <webElementGuid>6c1b5ba1-fb69-4221-a77b-7467a53f3f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>2091</value>
-      <webElementGuid>b21a803f-ea23-4b2f-9bca-b38a82313a08</webElementGuid>
+      <value>1207</value>
+      <webElementGuid>0e2c0496-a695-4dda-98af-e981347783f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>168</value>
-      <webElementGuid>2c1d6008-2e17-4e28-b1df-a1ac7a6d005f</webElementGuid>
+      <value>85</value>
+      <webElementGuid>c828a823-0742-4a08-ac62-8f79d75774e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>47</value>
-      <webElementGuid>3e746ebf-7e96-4f95-96f6-8fa8e1d34c31</webElementGuid>
+      <value>55</value>
+      <webElementGuid>57b3ec88-de86-486c-a349-767102257f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[879,2091][1047,2138]</value>
-      <webElementGuid>b77946b0-51d5-477c-ac37-f9166ed55dd4</webElementGuid>
+      <value>[84,1207][169,1262]</value>
+      <webElementGuid>2d5a7f69-3125-43b9-b54d-9fb16fcbf1f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,28 +173,20 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>53a8da52-9297-467b-8eb1-b06d18824bc1</webElementGuid>
+      <webElementGuid>db29db12-7b43-4e31-9aa6-1492ee6e1237</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[5]/android.widget.TextView[2]</value>
-      <webElementGuid>f30c307b-35e5-433d-bd6d-e9c74613c31e</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]</value>
+      <webElementGuid>5c19edb1-4837-44e2-a6fd-24e7e30a9c52</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Profil' or . = 'Profil') and @resource-id = 'com.telkom.mwallet:id/nav_bar_title']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'BCA' or . = 'BCA') and @resource-id = 'com.telkom.mwallet:id/label_bank_bca']</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Profil' or . = 'Profil') and @resource-id = 'com.telkom.mwallet:id/nav_bar_title']</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -202,36 +194,44 @@
          <value></value>
       </entry>
       <entry>
-         <key>NAME</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;BCA&quot;).resourceId(&quot;com.telkom.mwallet:id/label_bank_bca&quot;).packageName(&quot;com.telkom.mwallet&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>android.widget.TextView</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>com.telkom.mwallet:id/nav_bar_title</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[5]/android.widget.TextView[2]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
+         <key>NAME</key>
          <value></value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Profil&quot;).resourceId(&quot;com.telkom.mwallet:id/nav_bar_title&quot;).packageName(&quot;com.telkom.mwallet&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(2)</value>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'BCA' or . = 'BCA') and @resource-id = 'com.telkom.mwallet:id/label_bank_bca']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value></value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
+         <key>ID</key>
+         <value>com.telkom.mwallet:id/label_bank_bca</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

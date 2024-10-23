@@ -15,7 +15,7 @@
       <guid>0a74b601-607a-46a4-9543-bef2a895f9d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Open App/Login Without OTP</testCaseId>
+      <testCaseId>Test Cases/In App english lang/Profile/Login Without OTP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -43,7 +43,7 @@
       <guid>49265cf3-a297-465f-9c61-1e406363aecd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Open App/Logout</testCaseId>
+      <testCaseId>Test Cases/Open App/Logout indo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
