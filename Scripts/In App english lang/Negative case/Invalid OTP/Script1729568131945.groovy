@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.tap(findTestObject('Object Repository/Invalid OTP/android.widget.EditText - Enter your phone number'), 0)
+Mobile.tap(findTestObject('Invalid OTP/android.widget.EditText - Enter your phone number'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Invalid OTP/android.widget.TextView - 8'), 0)
 
