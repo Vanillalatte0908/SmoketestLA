@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Check TnC, Privacy Policy and Help Center</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dce5e338-c612-4719-a125-d5823af99417</testCaseGuid>
-</TestCaseEntity>

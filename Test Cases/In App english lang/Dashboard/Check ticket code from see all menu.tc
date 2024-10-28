@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Check ticket code from see all menu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>928bb23a-8b78-4698-991b-b9dfd4ca31ca</testCaseGuid>
-</TestCaseEntity>

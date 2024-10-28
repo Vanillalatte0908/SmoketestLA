@@ -1,115 +1,105 @@
-[38;5;112m[Appium][0m Welcome to Appium v2.12.0
+[38;5;112m[Appium][0m Welcome to Appium v2.12.1
 [38;5;112m[Appium][0m Non-default server args:
-[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m50436[39m }
-[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m50347[39m }
 [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
-[38;5;112m[Appium][0m Attempting to load driver espresso...
-[38;5;112m[Appium][0m Attempting to load driver mac2...
-[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:50436/wd/hub
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:50347/wd/hub
 [38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
-	http://127.0.0.1:50436/wd/hub (only accessible from the same host)
-	http://192.168.100.81:50436/wd/hub
-	http://169.254.22.69:50436/wd/hub
+	http://127.0.0.1:50347/wd/hub (only accessible from the same host)
+	http://192.168.100.81:50347/wd/hub
+	http://169.254.21.120:50347/wd/hub
 [38;5;112m[Appium][0m Available drivers:
-[38;5;112m[Appium][0m   - xcuitest@7.28.2 (automationName 'XCUITest')
 [38;5;112m[Appium][0m   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
-[38;5;112m[Appium][0m   - espresso@3.5.0 (automationName 'Espresso')
-[38;5;112m[Appium][0m   - mac2@1.20.1 (automationName 'Mac2')
-[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;112m[Appium][0m   - xcuitest@5.0.0 (automationName 'XCUITest')
+[38;5;112m[Appium][0m Available plugins:
+[38;5;112m[Appium][0m   - images@3.0.21
+[38;5;112m[Appium][0m   - execute-driver@3.0.36
+[38;5;112m[Appium][0m No plugins activated. Use the --use-plugins flag with names of plugins to activate
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
-[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 7 ms - 111 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 8 ms - 111 
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
 [38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 111 
-[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:bundleId":"com.telkomsel.wallet","appium:url":"","appium:automationName":"XCUITest","appium:platformVersion":"18.0.1","appium:deviceId":"00008030-000E1CE814FA402E","appium:udid":"00008030-000E1CE814FA402E","appium:wdaLocalPort":50464,"appium:platformName":"IOS","appium:deviceName":"iPhone","platformName":"iOS"},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.telkomsel.wallet","appium:deviceId":"00008030-000E1CE814FA402E","appium:deviceName":"iPhone","appium:newCommandTimeout":1800,"appium:platformName":"IOS","appium:platformVersion":"18.0.1","appium:udid":"00008030-000E1CE814FA402E","appium:url":"","appium:waitForAppScript":"true;","appium:wdaLocalPort":50464,"platformName":"ios"}]}}
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:bundleId":"com.telkomsel.wallet","appium:url":"","appium:automationName":"XCUITest","appium:platformVersion":"18.0.1","appium:deviceId":"00008030-000E1CE814FA402E","appium:udid":"00008030-000E1CE814FA402E","appium:wdaLocalPort":50375,"appium:platformName":"IOS","appium:deviceName":"iPhone","platformName":"iOS"},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.telkomsel.wallet","appium:deviceId":"00008030-000E1CE814FA402E","appium:deviceName":"iPhone","appium:newCommandTimeout":1800,"appium:platformName":"IOS","appium:platformVersion":"18.0.1","appium:udid":"00008030-000E1CE814FA402E","appium:url":"","appium:waitForAppScript":"true;","appium:wdaLocalPort":50375,"platformName":"ios"}]}}
 [38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=IOS' and using capability 'platformName=ios'
 [38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
 [38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
 [38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
 [38;5;112m[Appium][0m Will require it at /Users/refqihussein/.appium/node_modules/appium-xcuitest-driver
-[38;5;162m[AppiumDriver@7dbe][0m Appium v2.12.0 creating new XCUITestDriver (v7.28.2) session
-[38;5;162m[AppiumDriver@7dbe][0m Checking BaseDriver versions for Appium and XCUITestDriver
-[38;5;162m[AppiumDriver@7dbe][0m Appium's BaseDriver version is 9.12.0
-[38;5;162m[AppiumDriver@7dbe][0m XCUITestDriver's BaseDriver version is 9.12.0
-[38;5;176m[XCUITestDriver@ecdc][0m The following provided capabilities were not recognized by this driver:
-[38;5;176m[XCUITestDriver@ecdc][0m   deviceId
-[38;5;176m[XCUITestDriver@ecdc][0m   url
-[38;5;176m[XCUITestDriver@ecdc][0m   waitForAppScript
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Session created with session id: 07cb0a76-0e92-412a-b590-19d425913d48
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Determining device to run tests on: udid: '00008030-000E1CE814FA402E', real device: true
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Normalized platformVersion capability value '18.0.1' to '18.0'
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Using WDA path: '/Users/refqihussein/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Using WDA agent: '/Users/refqihussein/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Setting up real device
-[38;5;166m[07cb0a76][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 00008030-000E1CE814FA402E on local port 50464, device port 50464
-[38;5;166m[07cb0a76][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 00008030-000E1CE814FA402E:50464
-[38;5;166m[07cb0a76][0m[38;5;151m[WD Proxy][0m socket hang up
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Launching WebDriverAgent on the device
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m There is no need to perform the project cleanup. A fresh install has been detected
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m socket hang up
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m socket hang up
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m socket hang up
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m socket hang up
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Quitting and uninstalling WebDriverAgent
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m Shutting down sub-processes
-[38;5;166m[07cb0a76][0m[38;5;23m[DevCon Factory][0m Releasing connections for 00008030-000E1CE814FA402E device on any port number
-[38;5;166m[07cb0a76][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["00008030-000E1CE814FA402E:50464"]
-[38;5;166m[07cb0a76][0m[38;5;23m[DevCon Factory][0m Releasing the listener for '00008030-000E1CE814FA402E:50464'
-[38;5;166m[07cb0a76][0m[38;5;69m[iProxy@00008030:50464][0m The connection has been closed
-[38;5;166m[07cb0a76][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 7210 ms - 1632 
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
-[38;5;166m[07cb0a76][0m[38;5;176m[XCUITestDriver@ecdc][0m connect ECONNREFUSED 127.0.0.1:50464
+[38;5;24m[AppiumDriver@8235][0m Appium v2.12.1 creating new XCUITestDriver (v5.0.0) session
+[38;5;24m[AppiumDriver@8235][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;24m[AppiumDriver@8235][0m Appium's BaseDriver version is 9.12.1
+[38;5;24m[AppiumDriver@8235][0m XCUITestDriver's BaseDriver version is 9.12.1
+[38;5;160m[XCUITestDriver@69a1][0m The following provided capabilities were not recognized by this driver:
+[38;5;160m[XCUITestDriver@69a1][0m   deviceId
+[38;5;160m[XCUITestDriver@69a1][0m   url
+[38;5;160m[XCUITestDriver@69a1][0m   waitForAppScript
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Session created with session id: f9a32add-0101-4dbe-a6f6-09207eed80ff
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Determining device to run tests on: udid: '00008030-000E1CE814FA402E', real device: true
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Normalized platformVersion capability value '18.0.1' to '18.0'
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Using WDA path: '/Users/refqihussein/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Using WDA agent: '/Users/refqihussein/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Setting up real device
+[38;5;190m[f9a32add][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 00008030-000E1CE814FA402E on local port 50375, device port 50375
+[38;5;190m[f9a32add][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 00008030-000E1CE814FA402E:50375
+[38;5;190m[f9a32add][0m[38;5;151m[WD Proxy][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Launching WebDriverAgent on the device
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.15.9)
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m socket hang up
+[38;5;190m[f9a32add][0m[38;5;160m[XCUITestDriver@69a1][0m Determined the downstream protocol as 'W3C'
+[38;5;190m[f9a32add][0m[38;5;24m[AppiumDriver@8235][0m New XCUITestDriver session created successfully, session f9a32add-0101-4dbe-a6f6-09207eed80ff added to master session list
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 39386 ms - 563 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff[39m {}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff 200 4 ms - 299 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff[39m {}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff 200 2 ms - 299 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 111 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/timeouts[39m {"implicit":60000}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/timeouts 200 2 ms - 14 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/execute/sync[39m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/execute/sync 200 314 ms - 63 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/execute/sync[39m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/execute/sync 200 8 ms - 63 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/appium/device/activate_app[39m {"bundleId":"com.telkomsel.wallet"}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/appium/device/activate_app 200 312 ms - 14 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/execute/sync 200 3644 ms - 45592 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/screenshot[39m {}
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff/screenshot 200 269 ms - 873200 
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff[39m {}
+[38;5;190m[f9a32add][0m[38;5;24m[AppiumDriver@8235][0m Removing session f9a32add-0101-4dbe-a6f6-09207eed80ff from our master session list
+[38;5;190m[f9a32add][0m[38;5;23m[DevCon Factory][0m Releasing connections for 00008030-000E1CE814FA402E device on any port number
+[38;5;190m[f9a32add][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["00008030-000E1CE814FA402E:50375"]
+[38;5;190m[f9a32add][0m[38;5;23m[DevCon Factory][0m Releasing the listener for '00008030-000E1CE814FA402E:50375'
+[38;5;190m[f9a32add][0m[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/f9a32add-0101-4dbe-a6f6-09207eed80ff 200 1056 ms - 14 
+[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 0ms

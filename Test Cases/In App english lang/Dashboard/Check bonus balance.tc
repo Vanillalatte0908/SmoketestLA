@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Check bonus balance</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ab06e6fe-264d-4037-8aa9-e5442aacdf0d</testCaseGuid>
-</TestCaseEntity>

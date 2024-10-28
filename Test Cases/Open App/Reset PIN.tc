@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Reset PIN</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ab4e564c-1828-4982-b002-2fad29a40e9c</testCaseGuid>
-</TestCaseEntity>
