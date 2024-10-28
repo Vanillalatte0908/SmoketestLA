@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click ATM and BCA withdrawal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23aa688d-f5e7-4daa-bede-55b513560273</testCaseGuid>
+</TestCaseEntity>
