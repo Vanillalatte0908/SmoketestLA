@@ -34,20 +34,46 @@ String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_s
 String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "ChangeLanguage"
 Files.createDirectories(Paths.get(folderPath))
 
+Mobile.delay(10)
+
 Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
 
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - English'), 5)
 
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - Indonesia'), 5)
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/DashboardLA/bahasa/android.widget.TextView - Profil'), 5)
 
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - Indonesia'), 5)
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - English'), 5)
 
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 5)
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Changelang' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.closeApplication()
 

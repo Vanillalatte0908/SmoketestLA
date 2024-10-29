@@ -16,12 +16,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.time.LocalDateTime
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.nio.file.Files
+import java.nio.file.Paths
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - See All'), 0)
 
+String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
+String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
+String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
+String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "Token"
+Files.createDirectories(Paths.get(folderPath))
+
+Mobile.takeScreenshot(folderPath + '/ Token' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - Create Token'), 3)
+
+Mobile.takeScreenshot(folderPath + '/ Token1' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Invalid pin/android.widget.TextView - 1'), 0)
 
@@ -34,5 +51,9 @@ Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - 5'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - 5'), 0)
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Token2' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.closeApplication()

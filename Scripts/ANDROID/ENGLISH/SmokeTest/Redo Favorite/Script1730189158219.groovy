@@ -35,19 +35,31 @@ String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_s
 String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "Favorite"
 Files.createDirectories(Paths.get(folderPath))
 
-Mobile.takeScreenshot(folderPath + '/ Favorite1' + todaysDate + '_' + nowTime + '.png')
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Favorite' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Donate to build a mosque'), 0)
 
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Favorite1' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - bangun masjid'), 0)
+
+Mobile.delay(10)
 
 Mobile.takeScreenshot(folderPath + '/ Favorite2' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Go to Payment'), 0)
 
+Mobile.delay(10)
+
 Mobile.takeScreenshot(folderPath + '/ Favorite3' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.EditText - 0'), '1')
+
+Mobile.delay(10)
 
 Mobile.takeScreenshot(folderPath + '/ Favorite4' + todaysDate + '_' + nowTime + '.png')
 
@@ -55,11 +67,15 @@ Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Confirm'), 0)
 
+Mobile.delay(10)
+
 Mobile.takeScreenshot(folderPath + '/ Favorite5' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText'), '123455')
 
-Mobile.takeScreenshot(folderPath + '/ Favorite7' + todaysDate + '_' + nowTime + '.png')
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ Favorite6' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
 

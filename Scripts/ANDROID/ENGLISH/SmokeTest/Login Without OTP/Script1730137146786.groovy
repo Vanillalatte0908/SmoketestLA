@@ -26,22 +26,29 @@ import java.nio.file.Paths
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
-Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Login without OTP/android.widget.EditText - Enter your phone number'), 
-    '85281409935')
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Login without OTP/android.widget.EditText - Enter your phone number'),
+	'85281409935')
+String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
+String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
+String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
+String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "loginnoootp"
+Files.createDirectories(Paths.get(folderPath))
+
+Mobile.delay(10)
+Mobile.takeScreenshot(folderPath + '/ Login' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Login without OTP/android.widget.Button - Start'), 0)
 
 Mobile.sendKeys(findTestObject('ANDROID/Login without OTP/android.widget.EditText'), '123455')
 
+Mobile.delay(10)
+Mobile.takeScreenshot(folderPath + '/ Login1' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 10)
 
-String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
-String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
-String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
-String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "Profile"
-Files.createDirectories(Paths.get(folderPath))
+Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ Login' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(folderPath + '/ Login2' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.closeApplication()
 

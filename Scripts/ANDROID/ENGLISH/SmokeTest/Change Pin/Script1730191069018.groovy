@@ -30,23 +30,39 @@ Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/Home/android.wi
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - PIN Settings'), 0)
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Change PIN'), 0)
-
-Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), '123455')
-
-Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), '112233')
-
-Mobile.delay(10)
-
-Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), '112233')
-
 String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + 'ChangePin'
 Files.createDirectories(Paths.get(folderPath))
 
+Mobile.delay(10)
+
 Mobile.takeScreenshot(folderPath + '/ ChangePin' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Change PIN'), 0)
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ ChangePin1' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), '123455')
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ ChangePin2' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), '112233')
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ ChangePin3' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), '112233')
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ ChangePin4' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.closeApplication()
 

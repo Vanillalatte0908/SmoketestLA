@@ -17,22 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.time.LocalDateTime
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.nio.file.Files
+import java.nio.file.Paths
 
-
-Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
+Mobile.startExistingApplication('com.telkom.mwallet')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/Home/android.widget.TextView - Profile'), 0)
-
-Mobile.scrollToText('Logout')
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Logout'), 10)
-
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Logout'), 3)
 
 String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "Logout"
 Files.createDirectories(Paths.get(folderPath))
+
+Mobile.takeScreenshot(folderPath + '/ Logout' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.scrollToText('Logout')
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Logout'), 10)
+
+Mobile.takeScreenshot(folderPath + '/ Logout1' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Logout'), 3)
 
 Mobile.takeScreenshot(folderPath + '/ Logout' + todaysDate + '_' + nowTime + '.png')

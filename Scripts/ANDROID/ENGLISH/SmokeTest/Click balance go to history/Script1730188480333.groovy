@@ -16,12 +16,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.time.LocalDateTime
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.nio.file.Files
+import java.nio.file.Paths
 
 Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/Dashboard/android.widget.TextView - Your Balance'), 3)
 
+String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
+String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
+String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
+String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "Balance"
+Files.createDirectories(Paths.get(folderPath))
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ balance' + todaysDate + '_' + nowTime + '.png')
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/Dashboard/android.widget.TextView - Home'), 0)
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ balance1' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.closeApplication()
 

@@ -34,6 +34,8 @@ String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_s
 String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + 'E-statment and Voucher'
 Files.createDirectories(Paths.get(folderPath))
 
+Mobile.delay(20)
+
 Mobile.takeScreenshot(folderPath + '/ Estatment' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
