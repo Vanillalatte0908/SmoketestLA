@@ -6,12 +6,12 @@
    <UUID>20dfb933-e9c4-41eb-9223-2ade491586dd</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.7.2</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/refqihussein/Katalon Studio/Linkajaapp2/Linkajaapp2.prj</projectFileLocation>
+   <projectFileLocation>/Users/refqihussein/git/SmoketestLA/Linkajaapp2.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
