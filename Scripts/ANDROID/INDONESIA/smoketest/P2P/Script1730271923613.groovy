@@ -26,49 +26,45 @@ import java.nio.file.Paths
 
 Mobile.startExistingApplication('com.telkom.mwallet')
 
-Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.TextView - Kirim Uang'), 0)
 
 String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
-String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "FlightMode"
+String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "KirimUang"
 Files.createDirectories(Paths.get(folderPath))
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(folderPath + '/ KirimUang' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/ANDROID/Connection/android.widget.TextView - Connections'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.TextView - Nomor Telepon'), 0)
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode1' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(folderPath + '/ KirimUang1' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/Connection/android.widget.Switch'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.view.ViewGroup (1)'), 0)
 
-Mobile.delay(10)
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.EditText - 0'), '1')
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode2' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.startExistingApplication('com.telkom.mwallet')
-
-Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 0)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button - Lanjut'), 0)
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode3' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(folderPath + '/ KirimUang2' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button - Konfirmasi'),
+    0)
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/Connection/android.widget.TextView - Connections'), 5)
+Mobile.delay(10)
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/Connection/android.widget.Switch'), 5)
+Mobile.takeScreenshot(folderPath + '/ KirimUang3' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.EditText'), '123455')
+
+Mobile.delay(10)
+
+Mobile.takeScreenshot(folderPath + '/ KirimUang4' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.closeApplication()
-

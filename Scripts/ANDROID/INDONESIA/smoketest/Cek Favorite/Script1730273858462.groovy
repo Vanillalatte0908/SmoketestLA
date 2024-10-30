@@ -22,60 +22,49 @@ import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 import java.nio.file.Files as Files
 import java.nio.file.Paths as Paths
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.time.LocalDateTime
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.nio.file.Files
+import java.nio.file.Paths
 
-Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
+Mobile.startExistingApplication('com.telkom.mwallet')
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - Profile'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button'), 0)
 
 String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
-
 String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
-
 String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
-
-String folderPath = ('/Users/refqihussein/Desktop/smoketest/' + folderDate) + 'UbahBahasa'
-
+String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "paporit"
 Files.createDirectories(Paths.get(folderPath))
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa') + todaysDate) + '_') + nowTime) + '.png')
+Mobile.takeScreenshot(folderPath + '/ paporit' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - English'), 5)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa1') + todaysDate) + '_') + nowTime) + '.png')
-
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - Indonesia'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.ImageView'), 0)
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa2') + todaysDate) + '_') + nowTime) + '.png')
+Mobile.takeScreenshot(folderPath + '/ paporit1' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.tap(findTestObject('ANDROID/DashboardLA/android.widget.TextView - Profil'), 5)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa3') + todaysDate) + '_') + nowTime) + '.png')
-
-Mobile.tap(findTestObject('ANDROID/DashboardLA/android.widget.TextView - Bahasa'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button - Ke Pembayaran'), 0)
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa4') + todaysDate) + '_') + nowTime) + '.png')
+Mobile.takeScreenshot(folderPath + '/ paporit2' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.tap(findTestObject('ANDROID/DashboardLA/bahasa/android.widget.TextView - English (1)'), 5)
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.EditText - 0'), '1')
 
-Mobile.delay(10)
-
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa5') + todaysDate) + '_') + nowTime) + '.png')
-
-Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 5)
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button - Lanjut'), 0)
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(((((folderPath + '/ UbahBahasa6') + todaysDate) + '_') + nowTime) + '.png')
+Mobile.takeScreenshot(folderPath + '/ paporit3' + todaysDate + '_' + nowTime + '.png')
+
+Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.ImageButton'), 0)
 
 Mobile.closeApplication()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>klik Paylater, voucher, kode token, kode bayar, e statment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e548af89-89a9-47d2-85e7-84fd84db2237</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,11 @@
+[38;5;72m[2d54eb5c][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+uncaughtException: Could not find a connected Android device in 20000ms
+Error: Could not find a connected Android device in 20000ms
+    at ADB.getDevicesWithRetry (/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:331:13)
+    at execFunc (/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:518:9)
+    at ADB.adbExec (/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:555:12)
+    at ADB.shell (/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:593:10)
+    at ADB.setDefaultHiddenApiPolicy (/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/adb-commands.js:601:5)
+    at AndroidUiautomator2Driver.deleteSession (/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:931:9)
+    at AndroidUiautomator2Driver.startUnexpectedShutdown (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:181:9)
+    at Timeout._onTimeout (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:205:7)

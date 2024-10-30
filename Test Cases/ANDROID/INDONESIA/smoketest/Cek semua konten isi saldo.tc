@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cek semua konten isi saldo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>939bcf31-7ab3-4ebc-a8a8-bbf852da42e4</testCaseGuid>
+</TestCaseEntity>

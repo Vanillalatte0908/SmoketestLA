@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login tanpa OTP -> check saldo -> check bonbal -> check home-pesan-riwayat dan profil
+</description>
+   <name>LoginTanpaOTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ac51a15-c7b6-4e33-9ece-8ed81ad748b5</testCaseGuid>
+</TestCaseEntity>

@@ -103,10 +103,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7cfb325e-cfc4-49e4-aa4d-c15a8ca2ae28</guid>
+      <guid>564d83e0-8802-4345-9e7a-2c62b141d6a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ANDROID/ENGLISH/SmokeTest/Check ticket code from see all menu</testCaseId>
+      <testCaseId>Test Cases/ANDROID/ENGLISH/SmokeTest/Change Language en to bahasa in apps</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -114,6 +114,27 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ANDROID/ENGLISH/SmokeTest/Redo Favorite</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e843b3f5-d667-4b34-9335-321a57938474</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ANDROID/ENGLISH/SmokeTest/Change Pin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cfb325e-cfc4-49e4-aa4d-c15a8ca2ae28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ANDROID/ENGLISH/SmokeTest/Flight Mode validasi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f93583bf-f386-46d2-b379-5c6ce8ea5713</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ANDROID/ENGLISH/SmokeTest/Flight Mode validasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
