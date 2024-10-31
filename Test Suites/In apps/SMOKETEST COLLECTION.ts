@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>ENGLISH SMOKETEST COLLECTION</name>
+   <name>SMOKETEST COLLECTION</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <maxConcurrentInstances>2</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -15,17 +15,17 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>samsung SM-G975F (Android 12)</value>
+                  <value>iPhone iPhone 18.0.1</value>
                </entry>
                <entry>
                   <key>deviceId</key>
-                  <value>RR8M50GLDRL</value>
+                  <value>00008030-000E1CE814FA402E</value>
                </entry>
             </runConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
+            <runConfigurationId>iOS</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/In apps/ANDROID/ENGLISH/ENGLISH SMOKETEST</testSuiteEntity>
+         <testSuiteEntity>Test Suites/In apps/IOS/Regress new build</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

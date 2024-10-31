@@ -27,17 +27,13 @@ import java.nio.file.Paths
 Mobile.startExistingApplication('com.telkom.mwallet')
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.EditText - Masukkan nomor telepon kamu'), 
-    '85281409935')
+    '81113019756')
 
 String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "masukindo"
 Files.createDirectories(Paths.get(folderPath))
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ masuk' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button - Mulai'), 0)
 

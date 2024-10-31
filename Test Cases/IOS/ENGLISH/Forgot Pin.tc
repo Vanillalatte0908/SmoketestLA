@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Forgot Pin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31e6b698-0699-4fd8-bae7-7dcc03c8bb93</testCaseGuid>
+</TestCaseEntity>
