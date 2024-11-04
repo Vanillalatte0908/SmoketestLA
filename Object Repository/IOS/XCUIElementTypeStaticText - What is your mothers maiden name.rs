@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>cab2c2b3-a7da-4ac6-b336-243937580454</webElementGuid>
+      <webElementGuid>407c0006-96d3-4ca1-92aa-4293c8f681ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5f57263c-e0e5-4c9c-9840-9ed4f3ae98a3</webElementGuid>
+      <webElementGuid>ab9157ea-0853-4d20-83ef-b1dc6515e71e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8a5c89b0-f9c0-4a1a-a2fe-5f1bc34f59a7</webElementGuid>
+      <webElementGuid>7b006760-ec0e-413a-ad9a-d20e3a216720</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>40.0</value>
-      <webElementGuid>25e2c302-3907-4e73-bf6e-7b620fd27434</webElementGuid>
+      <webElementGuid>6fb4129c-4559-452a-9326-11903b2804dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>fb3819d9-8c69-45b6-9816-7c0f194203b0</webElementGuid>
+      <webElementGuid>9c293ac4-287a-4156-894c-876552493232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>What is your mother's maiden name?</value>
-      <webElementGuid>34204f0b-2c8e-452f-a2e2-813245009815</webElementGuid>
+      <webElementGuid>94410817-e62d-43ba-ab1a-58845bfd2b20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>What is your mother's maiden name?</value>
-      <webElementGuid>7b3a09ba-55ef-48df-b695-060372a38770</webElementGuid>
+      <webElementGuid>1f490fbd-c5e3-4051-9600-f09a10cd183d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>What is your mother's maiden name?</value>
-      <webElementGuid>2ce087f2-f5cd-4c09-8b00-d82c76f920cf</webElementGuid>
+      <webElementGuid>bfbe64eb-c0b8-434a-b7ab-38acd1bb26b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>704.0</value>
-      <webElementGuid>0812a5d5-8c26-47c2-b241-abf98d55959c</webElementGuid>
+      <webElementGuid>004798ad-b6c2-47b4-abfd-3673265a9875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>32.0</value>
-      <webElementGuid>1537d614-a089-4d91-987f-dc491b89d24e</webElementGuid>
+      <webElementGuid>477140c0-593b-4381-8fcb-c32d1d7aaac7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1436.0</value>
-      <webElementGuid>5f04c295-e675-46c1-83ab-6cb4051a087f</webElementGuid>
+      <webElementGuid>d462915f-2e28-4e8b-b83c-ef7e3ef35a3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,57 +101,53 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>aa9e20c3-aba3-42f7-9f4d-856504251988</webElementGuid>
+      <webElementGuid>33fe0aa1-fa75-424e-bde1-ed94aa330d01</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;) and @name = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;) and @value = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;)]</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;) and @name = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;) and @value = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;)]</value>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'What is your mother's maiden name?' AND name == 'What is your mother's maiden name?' AND value == 'What is your mother's maiden name?'`]</value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
-         <value>What is your mother's maiden name?</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>What is your mother's maiden name?</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>NAME</key>
          <value>What is your mother's maiden name?</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>XCUIElementTypeStaticText</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'What is your mother's maiden name?' AND name == 'What is your mother's maiden name?' AND name == 'What is your mother's maiden name?'</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]</value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'What is your mother's maiden name?' AND name == 'What is your mother's maiden name?' AND name == 'What is your mother's maiden name?'</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeStaticText</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>What is your mother's maiden name?</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;) and @name = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;) and @value = concat(&quot;What is your mother&quot; , &quot;'&quot; , &quot;s maiden name?&quot;)]</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>What is your mother's maiden name?</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

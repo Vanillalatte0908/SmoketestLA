@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Using cucumber</description>
+   <name>LoginwithoutOTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0937c00d-ef22-4be2-8e54-feea878da2a5</testCaseGuid>
+</TestCaseEntity>

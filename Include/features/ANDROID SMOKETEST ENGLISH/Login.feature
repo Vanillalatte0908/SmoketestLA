@@ -1,3 +1,4 @@
+@verification
 Feature: Login without OTP
 
   Scenario: Login with phone number without OTP

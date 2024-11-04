@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>XCUIElementTypeImage - ic_mini_tint_chevron_down</name>
+   <name>XCUIElementTypeScrollView</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,8 +12,8 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeImage</value>
-      <webElementGuid>e60bd6fd-92d5-493b-9b7b-d888321a48dd</webElementGuid>
+      <value>XCUIElementTypeScrollView</value>
+      <webElementGuid>e17882d2-52b3-4326-ac0e-e01e9e8277a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e8eb1594-0cbc-417f-929e-5e12561b1a89</webElementGuid>
+      <webElementGuid>2c02be9f-c0d1-4f60-b605-8011cf46e663</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,109 +29,105 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>6eda3776-357b-47c2-be2f-c630b10c1195</webElementGuid>
+      <webElementGuid>f592b023-f86b-4ae3-b578-11e060282795</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>36.0</value>
-      <webElementGuid>2b55188c-1330-4664-b28f-3051eaba1ae1</webElementGuid>
+      <value>1402.0</value>
+      <webElementGuid>171e56b8-fea6-4f7d-8f56-c362a5be52e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>3</value>
-      <webElementGuid>f0b7345a-dcf7-458c-89b8-ca29708ba314</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ic_mini_tint_chevron_down</value>
-      <webElementGuid>c60b3c48-43b9-4ef2-95c8-c91afde5a25c</webElementGuid>
+      <value>0</value>
+      <webElementGuid>31710812-1b76-46ce-81ea-5fd33c18d044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>36.0</value>
-      <webElementGuid>6765b6a8-1ffa-487d-b3d8-925c89c83d57</webElementGuid>
+      <value>828.0</value>
+      <webElementGuid>8a0eafbe-6f3d-4975-923d-16f60886fbd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>736.0</value>
-      <webElementGuid>366b8310-ead2-4f31-96bb-cbd46e0260af</webElementGuid>
+      <value>0.0</value>
+      <webElementGuid>438ac1ca-d774-4562-abdd-5185de1207ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>462.0</value>
-      <webElementGuid>ae27de7a-b529-46c8-b001-7c1cb4fe203e</webElementGuid>
+      <value>184.0</value>
+      <webElementGuid>56b011a7-b859-4731-8473-4912cb1965e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]</value>
-      <webElementGuid>0de6ae7e-27d3-4a59-b33c-96a8ca5dc315</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]</value>
+      <webElementGuid>a78abf85-93fb-4bfd-b9e2-97fe106de9ae</webElementGuid>
    </webElementProperties>
-   <locator>//*[@type = 'XCUIElementTypeImage' and @name = 'ic_mini_tint_chevron_down']</locator>
+   <locator>//*[@type = 'XCUIElementTypeScrollView']</locator>
    <locatorCollection>
       <entry>
          <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeImage[`enabled == 1 AND name == 'ic_mini_tint_chevron_down'`]</value>
+         <value></value>
       </entry>
       <entry>
          <key>NAME</key>
-         <value>ic_mini_tint_chevron_down</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]</value>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeScrollView[`enabled == 1`]</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
+         <value></value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeImage' AND enabled == 1 AND name == 'ic_mini_tint_chevron_down'</value>
+         <value>type == 'XCUIElementTypeScrollView' AND enabled == 1</value>
       </entry>
       <entry>
          <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
-         <value>XCUIElementTypeImage</value>
+         <value>XCUIElementTypeScrollView</value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>ic_mini_tint_chevron_down</value>
+         <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeImage' and @name = 'ic_mini_tint_chevron_down']</value>
+         <value>//*[@type = 'XCUIElementTypeScrollView']</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>ic_mini_tint_chevron_down</value>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

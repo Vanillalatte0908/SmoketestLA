@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>1938278e-b7ca-4a84-8eba-f0c114f0ae6f</webElementGuid>
+      <webElementGuid>1471f00f-e464-4cfb-931c-03aabbc19126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>317be374-cd80-48e6-9491-8c446af1e7a5</webElementGuid>
+      <webElementGuid>98e99f59-158f-4c44-bf65-a3a963f0c596</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4a5b918e-45e1-44bd-9331-a934ba526b6b</webElementGuid>
+      <webElementGuid>34e067ad-19d2-4ed3-9eba-b664491fedea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>92.0</value>
-      <webElementGuid>fc291ad3-8a06-467d-a5fd-9d45bd744a58</webElementGuid>
+      <webElementGuid>54d1879a-71d2-4232-8350-3d048f53e396</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>06ca566e-8657-40a8-9ef7-254a097b3b25</webElementGuid>
+      <webElementGuid>272d4b0b-49d4-464c-bf57-3a3e11a7aded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Start</value>
-      <webElementGuid>2ca169d2-1501-41f4-ae2d-56e3be513f4c</webElementGuid>
+      <webElementGuid>38727a33-2129-4aa0-b2d9-c5e40e2532d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Start</value>
-      <webElementGuid>cc5aeb63-6d23-49cd-a4cc-34532186f66b</webElementGuid>
+      <webElementGuid>371f898a-aef1-403b-8585-5e60eedc1244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>764.0</value>
-      <webElementGuid>bff05073-4368-4fc2-95d2-be7707df0a76</webElementGuid>
+      <webElementGuid>50e2bcd5-f064-43f6-af70-a4138d21abea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>32.0</value>
-      <webElementGuid>7c16b4ff-c512-4dfc-b851-ed93e9c8fd37</webElementGuid>
+      <webElementGuid>33bf6b77-7b89-4a1a-994a-0cdf48a700ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>896.0</value>
-      <webElementGuid>140b40c3-9454-4644-8712-4a457a622bb0</webElementGuid>
+      <webElementGuid>7638a6af-3fb0-45c1-b903-6c65da6a9b98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,57 +93,53 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>2bdffbfe-ac52-42c7-8a0e-04674ebcc54d</webElementGuid>
+      <webElementGuid>068420e5-138b-4f7a-8641-3793bc048f6d</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Start' and @name = 'Start']</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Start' and @name = 'Start']</value>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Start' AND name == 'Start'`]</value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
-         <value>Start</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>Start</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>NAME</key>
          <value>Start</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>XCUIElementTypeButton</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Start' AND name == 'Start'</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]</value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Start' AND name == 'Start'</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeButton</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Start</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Start' and @name = 'Start']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Start</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

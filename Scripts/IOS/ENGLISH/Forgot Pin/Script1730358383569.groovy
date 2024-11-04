@@ -21,48 +21,20 @@ Mobile.startExistingApplication('com.telkomsel.wallet')
 
 Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Enter your phone number'), '85281409935')
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Start'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Start'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Forgot PIN'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Security Question'), 0)
 
-Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mini_tint_chevron_down'), 0, 0)
+Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mini_tint_chevron_down'), 2, 10)
 
-Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - What is your mothers maiden name (1)'), 
+Mobile.waitForElementPresent(findTestObject('Object Repository/IOS/XCUIElementTypeOther (10)'), 5)
+
+Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - What is your mothers maiden name'), 
     0, 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Enter your answer'), 'Linkaja')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Done'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Continue'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1 (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 4'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 4'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Re-login'), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/IOS/XCUIElementTypeScrollView'), 5)
 
 Mobile.closeApplication()
 
