@@ -33,7 +33,6 @@ class ForgotPin {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
 
 		captureScreenshot("ForgotPin")
-
 	}
 
 	private void captureScreenshot(String scenario) {
