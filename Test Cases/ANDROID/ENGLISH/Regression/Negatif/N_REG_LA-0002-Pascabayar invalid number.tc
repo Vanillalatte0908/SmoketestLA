@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N_REG_LA-0002-Pascabayar invalid number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f476e46c-ef41-4b8d-9cc8-1b1970b46ba9</testCaseGuid>
+</TestCaseEntity>

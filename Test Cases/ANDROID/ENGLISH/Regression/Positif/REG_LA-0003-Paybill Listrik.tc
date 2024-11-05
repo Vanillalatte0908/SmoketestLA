@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG_LA-0003-Paybill Listrik</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>811ac106-9684-417e-9565-855a65f1e72a</testCaseGuid>
+</TestCaseEntity>
