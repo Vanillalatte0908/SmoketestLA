@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>N_REG_LA-0003-BPJS invalid number</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>eff85df3-523c-4ca2-a66f-337b497a9af9</testCaseGuid>
-</TestCaseEntity>
