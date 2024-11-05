@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-014-Check Favorite</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73cebd0b-33a6-4f5e-91c3-e443d35f441f</testCaseGuid>
+</TestCaseEntity>

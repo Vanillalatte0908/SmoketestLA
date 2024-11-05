@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.EditText</name>
+   <name>android.widget.EditText - insert number of month (e.g 02)</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>8fa857b1-7ead-4efe-8ca4-205fbfcee8d8</webElementGuid>
+      <webElementGuid>59eae18a-9133-49b8-a3ed-a519af49362f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,15 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>84241c08-aed0-494f-9a2d-1845118689a6</webElementGuid>
+      <webElementGuid>008cd2e1-f8e1-4772-a557-d11d232d33f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>insert number of month (e.g: 02)</value>
+      <webElementGuid>e9286730-3545-4073-9a0d-cc397dcf998d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +37,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.telkom.mwallet:id/edit_field</value>
-      <webElementGuid>4f553b4b-e6c3-4651-b024-dc5a13544dde</webElementGuid>
+      <webElementGuid>a43dda3b-1760-45da-ab97-bd48312f3262</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.telkom.mwallet</value>
-      <webElementGuid>9022abbc-2c77-4db5-ac24-8f68a49f63fb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>content-desc</name>
-      <type>Main</type>
-      <value>inputPin_textField_userPin</value>
-      <webElementGuid>90feec4b-7cd3-45b1-8bfa-15448ee26379</webElementGuid>
+      <webElementGuid>36d469bf-cbab-43bd-8ce7-fda697dee68c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>46f7e991-1506-4397-96a7-3a76e4e14252</webElementGuid>
+      <webElementGuid>bbb30b80-6849-4408-8d58-9712a933d725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>32b75fd9-5c0c-4d56-9f84-bfdf16f647c2</webElementGuid>
+      <webElementGuid>84b30e84-efe1-4d81-88c0-bc3c63f62283</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4997cd7b-e6e2-4366-81ba-d5588d3c050b</webElementGuid>
+      <webElementGuid>3aa2d53b-ecc0-4183-82e9-d2c2d18ce6d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4ede167a-e9bf-4d3e-a863-642ec96b1d8d</webElementGuid>
+      <webElementGuid>5df0d943-fcc2-4292-ba5d-fcd1d4e7e832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c5db1206-204b-48d9-8eab-01fb58ae6d8a</webElementGuid>
+      <webElementGuid>f52e2e29-e661-41e8-991b-5a973e7a497a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8beb6d51-a8ff-4ae5-bf76-e1fadfec9e49</webElementGuid>
+      <webElementGuid>1bc6b0af-7ab6-45a4-8e95-cc0ed962b99b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c03c64ca-4722-4c6b-bcb7-e73f6635f315</webElementGuid>
+      <webElementGuid>bdb23b4f-7a94-4676-bfc4-422ade242105</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>73367df7-73a7-4f08-b806-b0fc1173780e</webElementGuid>
+      <webElementGuid>121ff9e8-a8fd-439a-84e9-54ae07e0e141</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8bcc4eac-8ae6-46fa-a42f-f12a5b30ca78</webElementGuid>
+      <webElementGuid>63f45947-75c5-4e87-8ab4-6fccd216b68f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>85b9b7b8-8f37-4efd-948a-a6bfa5c8f203</webElementGuid>
+      <webElementGuid>5fcfbf31-3212-4bf5-8726-032772248d2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,23 +133,23 @@
       <name>x</name>
       <type>Main</type>
       <value>84</value>
-      <webElementGuid>885c5d1a-d5a8-441f-b79b-8ddb4cb12cfe</webElementGuid>
+      <webElementGuid>3f516c98-2f48-4642-bf63-23814b581115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>362</value>
-      <webElementGuid>63408309-3fff-4948-a729-d05800ece0f0</webElementGuid>
+      <value>596</value>
+      <webElementGuid>ac8836aa-6a6b-49a5-babc-54ae6f9a2276</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>807</value>
-      <webElementGuid>ec00f562-57d0-41eb-b424-425bb898f0eb</webElementGuid>
+      <value>912</value>
+      <webElementGuid>9fcb6585-95fa-4eae-8673-604566a388e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,15 +157,15 @@
       <name>height</name>
       <type>Main</type>
       <value>126</value>
-      <webElementGuid>21a235a3-124d-458e-8915-f443387d79d6</webElementGuid>
+      <webElementGuid>2c856467-ae65-4f7d-a70c-35ae8b6618a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[84,362][891,488]</value>
-      <webElementGuid>32ce233c-9f2b-487c-9c61-5d7872049802</webElementGuid>
+      <value>[84,596][996,722]</value>
+      <webElementGuid>4bee6f29-7e60-4494-a994-3c1cf54caf2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,58 +173,53 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d28d011f-e6ec-493c-ba04-6a045e16c498</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>e1888be4-07f8-41fe-b7cd-f5a2bbb23cdd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
-      <webElementGuid>d55cbcdf-4078-4843-802a-4678c4405b94</webElementGuid>
+      <webElementGuid>3c522699-b10f-457f-b19b-0422a4413b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>hint</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>8b2c88e7-cae0-4bad-9149-58590eb4edd2</webElementGuid>
+      <value>insert number of month (e.g: 02)</value>
+      <webElementGuid>9a741d38-1337-4e57-96b9-1637d57fa256</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.EditText' and @resource-id = 'com.telkom.mwallet:id/edit_field' and (@text = '' or . = '')]</locator>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
+      <webElementGuid>7bd811cf-797b-43e3-89ed-26c3cb240718</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@class = 'android.widget.EditText' and (@text = 'insert number of month (e.g: 02)' or . = 'insert number of month (e.g: 02)') and @resource-id = 'com.telkom.mwallet:id/edit_field']</locator>
    <locatorCollection>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'com.telkom.mwallet:id/pin_area' and (@text = '' or . = '')]</value>
+         <value>//*[@class = 'android.widget.EditText' and (@text = 'insert number of month (e.g: 02)' or . = 'insert number of month (e.g: 02)') and @resource-id = 'com.telkom.mwallet:id/edit_field']</value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>inputPin_textField_userPin</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>com.telkom.mwallet:id/pin_area</value>
+         <value>com.telkom.mwallet:id/edit_field</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).description(&quot;inputPin_textField_userPin&quot;).resourceId(&quot;com.telkom.mwallet:id/pin_area&quot;).packageName(&quot;com.telkom.mwallet&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(2)</value>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;insert number of month (e.g: 02)&quot;).resourceId(&quot;com.telkom.mwallet:id/edit_field&quot;).packageName(&quot;com.telkom.mwallet&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
       </entry>
       <entry>
          <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -232,16 +227,19 @@
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

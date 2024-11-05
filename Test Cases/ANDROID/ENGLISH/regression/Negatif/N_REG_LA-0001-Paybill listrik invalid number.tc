@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N_REG_LA-0001-Paybill listrik invalid number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f15a5804-cc46-4dc9-aa36-bd4781f53895</testCaseGuid>
+</TestCaseEntity>

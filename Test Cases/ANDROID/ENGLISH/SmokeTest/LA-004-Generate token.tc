@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-004-Generate token</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d554aba-2c8c-46a8-9917-9cce4025cdf5</testCaseGuid>
+</TestCaseEntity>

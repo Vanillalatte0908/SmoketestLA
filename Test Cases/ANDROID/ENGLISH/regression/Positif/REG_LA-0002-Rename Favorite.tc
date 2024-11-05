@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG_LA-0002-Rename Favorite</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3289529d-cef4-4e3c-970b-e93693960991</testCaseGuid>
+</TestCaseEntity>
