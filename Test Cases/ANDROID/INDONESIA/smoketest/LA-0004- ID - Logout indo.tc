@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>klik Mode pesawat</name>
+   <name>LA-0004- ID - Logout indo</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>385c8e4a-6524-48a2-b669-09279fc9c4f0</testCaseGuid>
+   <testCaseGuid>95418c0e-9a0c-4b96-b5f0-094bfec2e678</testCaseGuid>
 </TestCaseEntity>

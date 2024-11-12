@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Cek Favorite</name>
+   <name>invalid OTP (1)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9db4f079-c8c8-4a81-8ea8-359b4efe7109</testCaseGuid>
+   <testCaseGuid>8d7546a5-29a6-4a0b-91a9-25f0e5d26742</testCaseGuid>
 </TestCaseEntity>

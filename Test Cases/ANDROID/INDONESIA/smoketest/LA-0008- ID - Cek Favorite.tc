@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-0008- ID - Cek Favorite</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9db4f079-c8c8-4a81-8ea8-359b4efe7109</testCaseGuid>
+</TestCaseEntity>

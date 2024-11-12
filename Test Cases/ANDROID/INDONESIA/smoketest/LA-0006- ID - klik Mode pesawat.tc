@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Cek semua konten isi saldo</name>
+   <name>LA-0006- ID - klik Mode pesawat</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>939bcf31-7ab3-4ebc-a8a8-bbf852da42e4</testCaseGuid>
+   <testCaseGuid>385c8e4a-6524-48a2-b669-09279fc9c4f0</testCaseGuid>
 </TestCaseEntity>

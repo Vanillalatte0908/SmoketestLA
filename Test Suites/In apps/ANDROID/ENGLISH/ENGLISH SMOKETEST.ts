@@ -113,7 +113,7 @@
       <guid>79c622c2-2aca-4736-8ba4-43a3032442cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ANDROID/ENGLISH/Regression/Positif/Redo Favorite</testCaseId>
+      <testCaseId>Test Cases/ANDROID/ENGLISH/Regression/Positif/REG_LA-0005-Redo Favorite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Login tanpa OTP -> check saldo -> check bonbal -> check home-pesan-riwayat dan profil
 </description>
-   <name>LoginTanpaOTP</name>
+   <name>LA-0003- ID - LoginTanpaOTP</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

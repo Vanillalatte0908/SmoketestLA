@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TarikTunaiATM dan TarikTunaiBCA dan kirim uang ke bank</name>
+   <name>LA-0001- ID - TarikTunaiATM dan TarikTunaiBCA dan kirim uang ke bank</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

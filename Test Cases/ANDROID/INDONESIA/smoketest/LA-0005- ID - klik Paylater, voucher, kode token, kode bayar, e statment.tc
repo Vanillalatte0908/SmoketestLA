@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout indo</name>
+   <name>LA-0005- ID - klik Paylater, voucher, kode token, kode bayar, e statment</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>95418c0e-9a0c-4b96-b5f0-094bfec2e678</testCaseGuid>
+   <testCaseGuid>e548af89-89a9-47d2-85e7-84fd84db2237</testCaseGuid>
 </TestCaseEntity>
