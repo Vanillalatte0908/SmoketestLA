@@ -1,12 +1,13 @@
 [38;5;112m[Appium][0m Welcome to Appium v2.12.1
 [38;5;112m[Appium][0m Non-default server args:
-[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m53841[39m }
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m56098[39m }
 [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
 [38;5;112m[Appium][0m Attempting to load driver xcuitest...
-[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:53841/wd/hub
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:56098/wd/hub
 [38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
-	http://127.0.0.1:53841/wd/hub (only accessible from the same host)
-	http://192.168.100.83:53841/wd/hub
+	http://127.0.0.1:56098/wd/hub (only accessible from the same host)
+	http://192.168.100.83:56098/wd/hub
+	http://169.254.38.89:56098/wd/hub
 [38;5;112m[Appium][0m Available drivers:
 [38;5;112m[Appium][0m   - uiautomator2@3.8.1 (automationName 'UiAutomator2')
 [38;5;112m[Appium][0m   - xcuitest@7.28.3 (automationName 'XCUITest')
@@ -15,109 +16,560 @@
 [38;5;112m[Appium][0m   - execute-driver@3.0.36
 [38;5;112m[Appium][0m No plugins activated. Use the --use-plugins flag with names of plugins to activate
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
-[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 21 ms - 111 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 8 ms - 111 
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
-[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 111 
-[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"desiredCapabilities":{"appium:systemPort":8231,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:platformVersion":"12","appium:deviceId":"","appium:udid":"R9RNC03X57D","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:appActivity":".Settings","appium:deviceName":"samsung SM-A025F (Android 12)","platformName":"Android","appium:appPackage":"com.android.settings"},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-A025F (Android 12)","appium:newCommandTimeout":1800,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:systemPort":8231,"appium:udid":"R9RNC03X57D","platformName":"android"}]}}
-[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 111 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"desiredCapabilities":{"appium:useNewWDA":false,"appium:waitForAppScript":"true;","appium:waitForQuiescence":false,"appium:newCommandTimeout":1800,"appium:bundleId":"com.telkomsel.wallet","appium:automationName":"XCUITest","appium:platformVersion":"18.0.1","appium:deviceId":"00008030-000E1CE814FA402E","appium:udid":"00008030-000E1CE814FA402E","appium:wdaLocalPort":56124,"appium:platformName":"IOS","appium:deviceName":"iPhone","platformName":"iOS"},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.telkomsel.wallet","appium:deviceId":"00008030-000E1CE814FA402E","appium:deviceName":"iPhone","appium:newCommandTimeout":1800,"appium:platformName":"IOS","appium:platformVersion":"18.0.1","appium:udid":"00008030-000E1CE814FA402E","appium:useNewWDA":false,"appium:waitForAppScript":"true;","appium:waitForQuiescence":false,"appium:wdaLocalPort":56124,"platformName":"ios"}]}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=IOS' and using capability 'platformName=ios'
 [38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
-[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
-[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
-[38;5;112m[Appium][0m Will require it at /Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver
-[38;5;203m[AppiumDriver@e29e][0m Appium v2.12.1 creating new AndroidUiautomator2Driver (v3.8.1) session
-[38;5;203m[AppiumDriver@e29e][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-[38;5;203m[AppiumDriver@e29e][0m Appium's BaseDriver version is 9.12.1
-[38;5;203m[AppiumDriver@e29e][0m AndroidUiautomator2Driver's BaseDriver version is 9.12.1
-[38;5;-27m[AndroidUiautomator2Driver@5777][0m The following provided capabilities were not recognized by this driver:
-[38;5;-27m[AndroidUiautomator2Driver@5777][0m   deviceId
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Session created with session id: 226b6f21-3308-4ad5-b3a9-580dc3ee81d5
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/refqihussein/.katalon/tools/android_sdk' (newest first):
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m     /Users/refqihussein/.katalon/tools/android_sdk/build-tools/29.0.3
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/refqihussein/.katalon/tools/android_sdk/platform-tools/adb'
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Retrieving device list
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Using device: R9RNC03X57D
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/refqihussein/.katalon/tools/android_sdk/platform-tools/adb'
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Starting 'com.android.settings' directly on the device
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m Getting device platform version
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Relaxing hidden api policy
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m No app sent in, not parsing package/activity
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/refqihussein/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Server packages are not going to be (re)installed
-[38;5;159m[226b6f21][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Starting UIAutomator2 server 7.1.1
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Using UIAutomator2 server from '/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.1.apk' and test from '/Users/refqihussein/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Waiting up to 30000ms for UiAutomator2 to be online...
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m socket hang up
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m socket hang up
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m socket hang up
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m socket hang up
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Determined the downstream protocol as 'W3C'
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Screen already unlocked, doing nothing
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[38;5;159m[226b6f21][0m[38;5;203m[AppiumDriver@e29e][0m New AndroidUiautomator2Driver session created successfully, session 226b6f21-3308-4ad5-b3a9-580dc3ee81d5 added to master session list
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 9689 ms - 1112 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5 200 50 ms - 326 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5 200 108 ms - 326 
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/refqihussein/.appium/node_modules/appium-xcuitest-driver
+[38;5;149m[AppiumDriver@7f5e][0m Appium v2.12.1 creating new XCUITestDriver (v7.28.3) session
+[38;5;149m[AppiumDriver@7f5e][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;149m[AppiumDriver@7f5e][0m Appium's BaseDriver version is 9.12.1
+[38;5;149m[AppiumDriver@7f5e][0m XCUITestDriver's BaseDriver version is 9.12.1
+[38;5;123m[BaseDriver][0m The 'waitForQuiescence' capability has been deprecated and must not be used anymore. Please check the driver documentation for possible alternatives.
+[38;5;123m[BaseDriver][0m The 'waitForQuiescence' capability has been deprecated and must not be used anymore. Please check the driver documentation for possible alternatives.
+[38;5;230m[XCUITestDriver@54c5][0m The following provided capabilities were not recognized by this driver:
+[38;5;230m[XCUITestDriver@54c5][0m   deviceId
+[38;5;230m[XCUITestDriver@54c5][0m   waitForAppScript
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Session created with session id: e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Determining device to run tests on: udid: '00008030-000E1CE814FA402E', real device: true
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Normalized platformVersion capability value '18.0.1' to '18.0'
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Using WDA path: '/Users/refqihussein/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Using WDA agent: '/Users/refqihussein/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Setting up real device
+[38;5;24m[e20ba2fd][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 00008030-000E1CE814FA402E on local port 56124, device port 56124
+[38;5;24m[e20ba2fd][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 00008030-000E1CE814FA402E:56124
+[38;5;24m[e20ba2fd][0m[38;5;151m[WD Proxy][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Launching WebDriverAgent on the device
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 8.9.4)
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m socket hang up
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Determined the downstream protocol as 'W3C'
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m WDA session startup took 2275ms
+[38;5;24m[e20ba2fd][0m[38;5;149m[AppiumDriver@7f5e][0m New XCUITestDriver session created successfully, session e20ba2fd-5577-4a96-814c-af3503392cbd added to master session list
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 40528 ms - 596 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd 200 9 ms - 332 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd 200 1 ms - 332 
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
-[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 111 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/timeouts[39m {"implicit":60000}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/timeouts 200 12 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/system_bars[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/system_bars 200 290 ms - 148 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/activate_app[39m {"bundleId":"com.telkom.mwallet"}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/activate_app 200 547 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source[39m {}
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Replacing sessionId fc27d38d-ef82-4326-91b5-ad5c48b2da11 with 226b6f21-3308-4ad5-b3a9-580dc3ee81d5
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source 200 578 ms - 31710 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot 200 1868 ms - 1006668 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source[39m {}
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Replacing sessionId fc27d38d-ef82-4326-91b5-ad5c48b2da11 with 226b6f21-3308-4ad5-b3a9-580dc3ee81d5
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source 200 1041 ms - 13954 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot 200 912 ms - 271892 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context 200 5 ms - 22 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/contexts[39m {}
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Skipping the webview 'WEBVIEW_stetho_com.apps.MyXL' at '@stetho_com.apps.MyXL_devtools_remote' since it has reported having zero pages
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/contexts 200 846 ms - 24 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context[39m {"name":"NATIVE_APP"}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context 200 6 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/press_keycode[39m {"keycode":4}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/press_keycode 200 436 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context[39m {"name":"NATIVE_APP"}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context 200 5 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source[39m {}
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Replacing sessionId fc27d38d-ef82-4326-91b5-ad5c48b2da11 with 226b6f21-3308-4ad5-b3a9-580dc3ee81d5
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source 200 518 ms - 31710 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot 200 779 ms - 133988 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context 200 5 ms - 22 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/contexts[39m {}
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Skipping the webview 'WEBVIEW_stetho_com.apps.MyXL' at '@stetho_com.apps.MyXL_devtools_remote' since it has reported having zero pages
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/contexts 200 470 ms - 24 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context[39m {"name":"NATIVE_APP"}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context 200 3 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/press_keycode[39m {"keycode":4}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/appium/device/press_keycode 200 104 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context[39m {"name":"NATIVE_APP"}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/context 200 4 ms - 14 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source[39m {}
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Replacing sessionId fc27d38d-ef82-4326-91b5-ad5c48b2da11 with 226b6f21-3308-4ad5-b3a9-580dc3ee81d5
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/source 200 359 ms - 24607 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot[39m {}
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5/screenshot 200 1990 ms - 1229312 
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5[39m {}
-[38;5;159m[226b6f21][0m[38;5;203m[AppiumDriver@e29e][0m Removing session 226b6f21-3308-4ad5-b3a9-580dc3ee81d5 from our master session list
-[38;5;159m[226b6f21][0m[38;5;-27m[AndroidUiautomator2Driver@5777][0m Restoring hidden api policy to the device default configuration
-[38;5;159m[226b6f21][0m[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/226b6f21-3308-4ad5-b3a9-580dc3ee81d5 200 889 ms - 14 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 111 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/timeouts[39m {"implicit":60000}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/timeouts 200 4 ms - 14 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 348 ms - 103 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 11 ms - 103 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/appium/device/activate_app[39m {"bundleId":"com.telkomsel.wallet"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/appium/device/activate_app 200 62 ms - 14 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 3190 ms - 44226 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 287 ms - 859128 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 229 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 3093 ms - 3083 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D000000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D000000-0000-0000-4337-000000000000/location 200 117 ms - 26 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D000000-0000-0000-4337-000000000000/click[39m {"id":"1D000000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D000000-0000-0000-4337-000000000000/click 200 542 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 3687 ms - 52950 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 239 ms - 859092 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 211 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Send Money' and @name = 'Send Money' and @value = 'Send Money']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 2134 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/00010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/00010000-0000-0000-4337-000000000000/location 200 165 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/00010000-0000-0000-4337-000000000000/click[39m {"id":"00010000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/00010000-0000-0000-4337-000000000000/click 200 589 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 842 ms - 8911 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 110 ms - 97256 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 99 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Phone Number' and @name = 'Phone Number' and @value = 'Phone Number']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 571 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/37010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/37010000-0000-0000-4337-000000000000/location 200 71 ms - 26 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/37010000-0000-0000-4337-000000000000/click[39m {"id":"37010000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/37010000-0000-0000-4337-000000000000/click 200 473 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 1084 ms - 12392 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 107 ms - 101868 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 107 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'ic_mini_tint_chevron_right']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 643 ms - 267 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/65010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/65010000-0000-0000-4337-000000000000/location 200 77 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/65010000-0000-0000-4337-000000000000/click[39m {"id":"65010000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/65010000-0000-0000-4337-000000000000/click 200 456 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 1599 ms - 18605 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 114 ms - 170840 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 138 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = '0']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 671 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/6F010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/6F010000-0000-0000-4337-000000000000/location 200 97 ms - 26 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/6F010000-0000-0000-4337-000000000000/value[39m {"id":"6F010000-0000-0000-4337-000000000000","text":"1","value":["1"]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/6F010000-0000-0000-4337-000000000000/value 200 384 ms - 14 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 1645 ms - 18881 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 120 ms - 177804 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 128 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Done' and @name = 'Done']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 860 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/87010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/87010000-0000-0000-4337-000000000000/location 200 91 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/87010000-0000-0000-4337-000000000000/click[39m {"id":"87010000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/87010000-0000-0000-4337-000000000000/click 200 475 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 950 ms - 12366 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 94 ms - 118108 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 202 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Continue' and @name = 'Continue']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 559 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/8B010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/8B010000-0000-0000-4337-000000000000/location 200 61 ms - 26 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/8B010000-0000-0000-4337-000000000000/click[39m {"id":"8B010000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/8B010000-0000-0000-4337-000000000000/click 200 484 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 1718 ms - 20500 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 109 ms - 112184 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 124 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 885 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/C5010000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/C5010000-0000-0000-4337-000000000000/location 200 80 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/C5010000-0000-0000-4337-000000000000/click[39m {"id":"C5010000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/C5010000-0000-0000-4337-000000000000/click 200 468 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 2576 ms - 33485 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 122 ms - 72256 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 147 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = '1' and @name = '1']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 1281 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1B020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1B020000-0000-0000-4337-000000000000/location 200 127 ms - 25 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1B020000-0000-0000-4337-000000000000/click[39m {"id":"1B020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1B020000-0000-0000-4337-000000000000/click 200 512 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 2660 ms - 33485 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 120 ms - 72244 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 150 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = '2' and @name = '2']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 1346 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1C020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1C020000-0000-0000-4337-000000000000/location 200 114 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1C020000-0000-0000-4337-000000000000/click[39m {"id":"1C020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1C020000-0000-0000-4337-000000000000/click 200 503 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 2666 ms - 33485 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 120 ms - 72484 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 164 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = '3' and @name = '3']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 1241 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D020000-0000-0000-4337-000000000000/location 200 114 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D020000-0000-0000-4337-000000000000/click[39m {"id":"1D020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1D020000-0000-0000-4337-000000000000/click 200 518 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 2687 ms - 33485 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 121 ms - 72460 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 155 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = '4' and @name = '4']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 1387 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1E020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1E020000-0000-0000-4337-000000000000/location 200 118 ms - 25 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1E020000-0000-0000-4337-000000000000/click[39m {"id":"1E020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1E020000-0000-0000-4337-000000000000/click 200 526 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 2669 ms - 33485 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 124 ms - 72676 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 153 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = '5' and @name = '5']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 1192 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/location 200 89 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/click[39m {"id":"1F020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/click 200 465 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 2669 ms - 33485 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 120 ms - 72628 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 151 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = '5' and @name = '5']"}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 1266 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/location 200 110 ms - 27 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/click[39m {"id":"1F020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/1F020000-0000-0000-4337-000000000000/click 200 506 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.721300+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.734382+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.748343+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.761277+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.773653+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.787302+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.801631+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.815255+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.827711+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.841107+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.853882+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.867195+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.879708+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.890958+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.903615+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.916929+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.931942+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.944337+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.956889+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.970288+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.983610+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:24.996994+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.009112+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.021852+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.034936+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.047371+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.061141+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.073487+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.087082+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.100283+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.112390+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.124080+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.136712+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.150159+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.162860+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.174766+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.188018+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.201359+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.214610+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.227854+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.239141+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.251608+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.265186+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.278063+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.291175+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.303866+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.318874+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.335260+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.348224+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.361015+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.375467+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.388871+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.402138+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.420662+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.422224+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.423416+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.424700+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.426069+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.427937+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.430050+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.431586+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.432914+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.434304+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.435294+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:25.436588+0700 WebDriverAgentRunner-Runner[14144:1447455] Cannot retrieve element attribute(s) (
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 3759 ms - 31484 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 220 ms - 600884 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:34.249625+0700 WebDriverAgentRunner-Runner[14144:1447455] The following attributes were requested to be included into the XML: {(
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBWidthAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBLabelAttribute
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m )}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   162.00s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 8150 ms - 96018 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 219 ms - 601768 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   172.87s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/window/rect 200 233 ms - 48 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements[39m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'ic medium outlinenontint close' and @name = 'ic medium outlinenontint close']"}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:45.335898+0700 WebDriverAgentRunner-Runner[14144:1447455] The following attributes were requested to be included into the XML: {(
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBLabelAttribute
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m )}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   173.09s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   175.69s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"3C020000-0000-0000-4337-000000000000"}'
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   175.69s     Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   175.85s     Find: Descendants matching type Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   175.86s     Find: Elements matching predicate 'fb_uid IN {"3C020000-0000-0000-4337-000000000000"}'
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   175.87s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.03s Find: Descendants matching type Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.04s Find: Elements matching predicate 'fb_uid IN {"3C020000-0000-0000-4337-000000000000"}'
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.04s Find: Element at index 0
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/elements 200 2991 ms - 139 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/3C020000-0000-0000-4337-000000000000/location[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.08s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.21s Find: Descendants matching type Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.22s Find: Elements matching predicate 'fb_uid IN {"3C020000-0000-0000-4337-000000000000"}'
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.22s Find: Element at index 0
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/3C020000-0000-0000-4337-000000000000/location 200 163 ms - 25 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/3C020000-0000-0000-4337-000000000000/click[39m {"id":"3C020000-0000-0000-4337-000000000000"}
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.24s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.38s Find: Descendants matching type Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.38s Find: Elements matching predicate 'fb_uid IN {"3C020000-0000-0000-4337-000000000000"}'
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.38s Find: Element at index 0
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.40s Tap "ic medium outlinenontint close" Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:48.649611+0700 WebDriverAgentRunner-Runner[14144:1447455] Quiescence checks are disabled for com.telkomsel.wallet application. Making it to believe it is idling
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.40s     Find the "ic medium outlinenontint close" Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.40s         Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.52s         Find: Descendants matching type Button
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.53s         Find: Elements matching predicate 'fb_uid IN {"3C020000-0000-0000-4337-000000000000"}'
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.53s         Find: Element at index 0
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.53s Application is configured to skip UI interruption handling
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   176.54s     Synthesize event
+[38;5;24m[e20ba2fd][0m[38;5;230m[XCUITestDriver@54c5][0m Replacing sessionId A609F816-C555-4F95-9B5B-E22E78EC09A0 with e20ba2fd-5577-4a96-814c-af3503392cbd
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/element/3C020000-0000-0000-4337-000000000000/click 200 616 ms - 65 
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:49.101125+0700 WebDriverAgentRunner-Runner[14144:1447455] Quiescence checks are disabled for com.telkomsel.wallet application. Making it to believe it is idling
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m 2024-11-12 15:23:49.915769+0700 WebDriverAgentRunner-Runner[14144:1447455] The following attributes were requested to be included into the XML: {(
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBWidthAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     FBLabelAttribute
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m )}
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   177.67s Requesting snapshot of accessibility hierarchy for app with pid 14147
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/execute/sync 200 3961 ms - 53638 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd/screenshot 200 219 ms - 863864 
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd[39m {}
+[38;5;24m[e20ba2fd][0m[38;5;149m[AppiumDriver@7f5e][0m Removing session e20ba2fd-5577-4a96-814c-af3503392cbd from our master session list
+[38;5;24m[e20ba2fd][0m[38;5;173m[Xcode][0m     t =   221.82s Terminate com.telkomsel.wallet:14147
+[38;5;24m[e20ba2fd][0m[38;5;23m[DevCon Factory][0m Releasing connections for 00008030-000E1CE814FA402E device on any port number
+[38;5;24m[e20ba2fd][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["00008030-000E1CE814FA402E:56124"]
+[38;5;24m[e20ba2fd][0m[38;5;23m[DevCon Factory][0m Releasing the listener for '00008030-000E1CE814FA402E:56124'
+[38;5;24m[e20ba2fd][0m[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/e20ba2fd-5577-4a96-814c-af3503392cbd 200 1093 ms - 14 
 [38;5;112m[Appium][0m Received SIGTERM - shutting down
 [38;5;86m[HTTP][0m Closing Appium HTTP server
-[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 2ms
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 1ms

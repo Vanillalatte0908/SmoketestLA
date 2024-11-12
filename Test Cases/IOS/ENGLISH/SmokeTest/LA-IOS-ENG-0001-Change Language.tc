@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-IOS-ENG-0001-Change Language</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>03df854b-913a-422f-bb62-23a528188de1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-IOS-ENG-0010-Profile check</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b0e8112-0cfe-47d6-b04c-8a858f68aa04</testCaseGuid>
+</TestCaseEntity>

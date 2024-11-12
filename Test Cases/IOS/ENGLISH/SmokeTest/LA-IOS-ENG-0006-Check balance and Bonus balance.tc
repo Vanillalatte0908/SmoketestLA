@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-IOS-ENG-0006-Check balance and Bonus balance</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69ba2284-f387-4951-967c-0799a964a088</testCaseGuid>
+</TestCaseEntity>

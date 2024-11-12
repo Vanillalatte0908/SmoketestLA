@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>994e25c8-4b87-4618-84a4-31bc18e2ab04</webElementGuid>
+      <webElementGuid>21074e28-dda1-414e-a04d-b61f7854f14f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5eeefcc0-73f4-410b-b623-d4ba1a15cb5b</webElementGuid>
+      <webElementGuid>3bf62127-27b9-4233-b27e-94798b7199bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>640368f1-879e-4be3-aa8d-87619882a90e</webElementGuid>
+      <webElementGuid>e7a8b78d-a55f-4623-ac1c-c2878b13e590</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>88.0</value>
-      <webElementGuid>43c60a8d-851c-499d-8d8f-6022ac3cdfd7</webElementGuid>
+      <webElementGuid>51cfd17b-1cde-4414-bfe6-e54117a9aac9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>43debb49-5b1a-4d75-9d49-1f5203ac1ffe</webElementGuid>
+      <webElementGuid>643fe398-5305-4dab-b064-8f72d5dce6be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>ic medium outlinetint close</value>
-      <webElementGuid>73efc399-1b4b-44b2-91f9-d03b0eadf22a</webElementGuid>
+      <webElementGuid>d2cf97e8-936a-472f-b7c5-bf7a91ec7a9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ic medium outlinetint close</value>
-      <webElementGuid>da4de1f1-328d-4f4e-ab14-33336cb36895</webElementGuid>
+      <webElementGuid>adaddeed-81bd-4d07-8ed7-4f35dcb26fb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>86.0</value>
-      <webElementGuid>32863e04-8c10-4c66-86ec-1319a875d7e7</webElementGuid>
+      <webElementGuid>c40167a0-62de-4ca8-a26e-d837bbdfdded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>24.0</value>
-      <webElementGuid>0e38bc1c-6064-485c-8631-99146b54343e</webElementGuid>
+      <webElementGuid>90b35495-6663-44b3-aa30-d32f2f7e7f22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>128.0</value>
-      <webElementGuid>0fac8701-f028-4ac3-a488-c66e77bdd436</webElementGuid>
+      <webElementGuid>977336e0-2b71-4ca0-9a57-131316d72920</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,45 +93,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>975a9797-8db6-4ff4-a90a-9cf373edd251</webElementGuid>
+      <webElementGuid>d1f19d9f-0a7a-46eb-8733-14179e1c7a77</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'ic medium outlinetint close' and @name = 'ic medium outlinetint close']</locator>
    <locatorCollection>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'ic medium outlinetint close' and @name = 'ic medium outlinetint close']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'ic medium outlinetint close' AND name == 'ic medium outlinetint close'`]</value>
-      </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>ic medium outlinetint close</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>ic medium outlinetint close</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value>ic medium outlinetint close</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>XCUIElementTypeButton</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'ic medium outlinetint close' AND name == 'ic medium outlinetint close'</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -139,11 +114,32 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'ic medium outlinetint close' AND name == 'ic medium outlinetint close'`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'ic medium outlinetint close' and @name = 'ic medium outlinetint close']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>ic medium outlinetint close</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'ic medium outlinetint close' AND name == 'ic medium outlinetint close'</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>ic medium outlinetint close</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

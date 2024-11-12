@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>2131c6b9-b9fc-41ab-a988-15c24e57c004</webElementGuid>
+      <webElementGuid>46712745-c9cf-43f4-9723-fd6974506f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>04b238fa-b48b-4d25-9d0b-d9db84b7009e</webElementGuid>
+      <webElementGuid>4ed31a9d-2878-4be5-886a-ccebe6305298</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e00b4e25-a8eb-4a73-8839-d66cede902c8</webElementGuid>
+      <webElementGuid>bed4bf7b-ad0b-43b2-be64-edcca227dc82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>88.0</value>
-      <webElementGuid>4aa83c42-f53c-4b33-8ebc-75f11e8dd0a6</webElementGuid>
+      <webElementGuid>df95f3b5-31b3-4c64-8910-369383655d2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>ed5cd0da-54bf-4de9-82c4-e132dfd0770a</webElementGuid>
+      <webElementGuid>abf43f06-201d-4317-b15a-e7d2fe35562f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Back</value>
-      <webElementGuid>3cb39ff1-2daa-4e0e-bccf-7285643319ff</webElementGuid>
+      <webElementGuid>186e3334-df49-4234-8058-454c7d612bb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Back</value>
-      <webElementGuid>d3468a91-0210-4cc9-ad38-0c1d865f3722</webElementGuid>
+      <webElementGuid>4ac96fb9-f047-4a1a-857e-581b75a34ae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>160.0</value>
-      <webElementGuid>7a920392-74e2-46ef-9a59-86bee52eab4d</webElementGuid>
+      <webElementGuid>fc8f3b58-0958-42c5-b045-8759c2b37cea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.0</value>
-      <webElementGuid>f91a0848-df6e-4644-81fb-38ab65ca6fb4</webElementGuid>
+      <webElementGuid>f0a076b2-6def-4793-8d47-042a283464e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>96.0</value>
-      <webElementGuid>8ecf5c63-ab4b-447d-8f91-5585a3d59dfc</webElementGuid>
+      <webElementGuid>894ef60d-fbbc-4123-9e68-6542893a65c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,45 +93,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>65f7f670-e14c-4480-b793-fd7937673abf</webElementGuid>
+      <webElementGuid>022ffc94-dbfa-4a20-b741-6e339cd3541c</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Back' and @name = 'Back']</locator>
    <locatorCollection>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Back' and @name = 'Back']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Back' AND name == 'Back'`]</value>
-      </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>Back</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>Back</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value>Back</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>XCUIElementTypeButton</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Back' AND name == 'Back'</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -139,11 +114,32 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Back' AND name == 'Back'`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Back' and @name = 'Back']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Back</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Back' AND name == 'Back'</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Back</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeOther</value>
-      <webElementGuid>d16ac96c-da3d-45b8-a000-249c35aeedad</webElementGuid>
+      <webElementGuid>ada4f43a-69b9-4cf1-b61f-1912cf55a525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b5ceece1-e1ba-42a3-989a-c2f5cf6b5086</webElementGuid>
+      <webElementGuid>9a3da2d6-6fe6-42c2-b5b7-a7b5c09e5482</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,93 +29,67 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ad1b9b77-59ad-4d81-8f00-951723b0ad3c</webElementGuid>
+      <webElementGuid>637113f2-7486-4cc8-98b9-465c669d86e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>26.0</value>
-      <webElementGuid>1e0023ad-d8e7-4a28-b601-5e1c9cc92515</webElementGuid>
+      <value>1792.0</value>
+      <webElementGuid>1a665208-6923-487c-8a54-ee65fbeb5d6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>b25797d6-2088-4ee6-80a4-a50c77f0ecdb</webElementGuid>
+      <value>1</value>
+      <webElementGuid>2be1bcc7-1210-4d3c-8b7e-5caa7841b4ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>24.0</value>
-      <webElementGuid>5de9c7f8-5feb-410a-a6aa-7cdf103ca535</webElementGuid>
+      <value>828.0</value>
+      <webElementGuid>04b1c8b7-9afa-47a1-84c9-7c0d7eec13e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>222.0</value>
-      <webElementGuid>af4792c8-1db7-483f-92da-064a2eaee2a2</webElementGuid>
+      <value>0.0</value>
+      <webElementGuid>cd55250b-1683-4d6c-a790-9b18984db328</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>428.0</value>
-      <webElementGuid>903c96f5-d22d-4bfa-8e57-80be27b7dc11</webElementGuid>
+      <value>0.0</value>
+      <webElementGuid>300dae38-413f-4d7b-8cb0-decc17766afc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]</value>
-      <webElementGuid>8687fe8f-b194-42b7-b59b-27167a30934c</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]</value>
+      <webElementGuid>2bb3554a-c6a7-4fd3-8f23-b1f3a6734a40</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeOther']</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeOther']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeOther[`enabled == 1`]</value>
-      </entry>
-      <entry>
          <key>ACCESSIBILITY</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>XCUIElementTypeOther</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeOther' AND enabled == 1</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -123,11 +97,30 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeOther[`enabled == 1`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeOther']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeOther' AND enabled == 1</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

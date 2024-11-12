@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>76c0a955-d4a5-4888-b5a0-959eaa19c122</webElementGuid>
+      <webElementGuid>a815ef1e-aa8f-4781-b58d-8bcf1edc132d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d1d020ef-66c0-406d-99f9-ca033f0026be</webElementGuid>
+      <webElementGuid>a837afb6-4def-4bba-b769-6c9cd073456d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d6b5b19a-db37-425e-9265-d58dc42a29cc</webElementGuid>
+      <webElementGuid>90cd23dd-2197-44c3-95f1-c3aa625026bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>96.0</value>
-      <webElementGuid>9bca112a-77a9-4641-b9b9-43003e9f57aa</webElementGuid>
+      <webElementGuid>fefcfe6f-245c-403a-ae0a-ec97830fc38a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>488e3a5e-1690-4279-af21-ef21788378b0</webElementGuid>
+      <webElementGuid>73a33155-1aed-4cd0-be54-855f59eea7a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>5c87c4df-ad5f-4a2f-8933-cfe6c8128214</webElementGuid>
+      <webElementGuid>ddddffde-29d3-45e8-b5bc-3ea60f72b2b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>dfd7635d-7a05-4b7d-937b-1aa36f6a3b66</webElementGuid>
+      <webElementGuid>4a0a5f2f-d9b4-4de7-adad-cda8b2b4f6b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>242.0</value>
-      <webElementGuid>cdf0729a-9859-4bd6-8208-df5f38ee7466</webElementGuid>
+      <webElementGuid>4827eae6-3e75-435a-80ca-2e8953f331e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>554.0</value>
-      <webElementGuid>2c189bee-331d-4710-9784-28cddd6d8ac0</webElementGuid>
+      <webElementGuid>972daaee-fc04-4377-9f0e-22004c4b9fde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1596.0</value>
-      <webElementGuid>010f3061-1722-46f4-8def-6bd3d39fe924</webElementGuid>
+      <webElementGuid>1c34ee4a-2db5-4b87-8a7d-82530c1136a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,45 +93,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>5410742b-3796-4060-91df-b8080378521d</webElementGuid>
+      <webElementGuid>bd535d95-df24-4d57-95ea-0a0953fce7c4</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']</locator>
    <locatorCollection>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Confirm' AND name == 'Confirm'`]</value>
-      </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>Confirm</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>Confirm</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value>Confirm</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>XCUIElementTypeButton</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Confirm' AND name == 'Confirm'</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -139,11 +114,32 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Confirm' AND name == 'Confirm'`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Confirm</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Confirm' AND name == 'Confirm'</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Confirm</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

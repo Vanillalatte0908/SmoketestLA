@@ -39,7 +39,10 @@ class OpenCloseApps {
 	@BeforeTestCase
 	def setupApplication() {
 		KeywordUtil.logInfo("Starting the application before the test case")
-		Mobile.startExistingApplication('com.telkom.mwallet')
+		//Android
+		//Mobile.startExistingApplication('com.telkom.mwallet')
+		//IOS
+		Mobile.startExistingApplication('com.telkomsel.wallet')
 		CucumberGlueGenerator.addDefaultPackages()
 	}
 	String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -49,7 +52,10 @@ class OpenCloseApps {
 
 	@Given("The application is started")
 	def startApplication() {
-		Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
+		// Android
+		//Mobile.startExistingApplication('com.telkom.mwallet') 
+		//Ios
+		Mobile.startExistingApplication('com.telkomsel.wallet') 
 		Files.createDirectories(Paths.get(folderPath))
 		CucumberGlueGenerator.addDefaultPackages()
 	}

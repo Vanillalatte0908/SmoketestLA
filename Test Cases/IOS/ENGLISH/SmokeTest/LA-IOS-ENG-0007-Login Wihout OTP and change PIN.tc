@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-IOS-ENG-0007-Login Wihout OTP and change PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35534907-6dfb-43e3-82ff-070e39ad1186</testCaseGuid>
+</TestCaseEntity>

@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>03c0f3aa-e7e3-4461-ac13-f641a4de5593</webElementGuid>
+      <webElementGuid>d062e339-4877-4755-b7ac-71d6e6de4366</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>05a02877-a19b-43a5-af22-5004cbd69a53</webElementGuid>
+      <webElementGuid>7a8fce0d-599b-40e3-a9dc-e0c42cd01338</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bea7d782-0347-403e-89bd-cd253d153338</webElementGuid>
+      <webElementGuid>85bff4d9-9b03-4b92-a93b-132dc162a7ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>28.0</value>
-      <webElementGuid>067b6d46-8d23-48dd-baa0-153433111365</webElementGuid>
+      <webElementGuid>180ac6af-1552-45d0-bd86-0d323faa2a88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>cd2cdf94-cce0-49f1-b26b-c03bf6dcaffb</webElementGuid>
+      <webElementGuid>34b88795-0bcf-4bdd-883d-e230c6517351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Account</value>
-      <webElementGuid>ce9e9427-9f02-42d5-9158-8aa46715ca99</webElementGuid>
+      <webElementGuid>b8a385b3-fadc-4126-9f31-4dc9660018db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Account</value>
-      <webElementGuid>fc16f70a-ea59-4ab7-8818-b5c5657819dc</webElementGuid>
+      <webElementGuid>04df7781-8673-4752-8d30-9d4647ba9962</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Account</value>
-      <webElementGuid>d291d543-d361-4924-8035-3e4d42754bb8</webElementGuid>
+      <webElementGuid>a5d9de7a-423e-428c-be7c-dd75a14da305</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>82.0</value>
-      <webElementGuid>ea052cf8-8836-4842-8a61-dca9ca67b7ba</webElementGuid>
+      <webElementGuid>f80f0da6-3a83-46a0-b066-a70b2f0a3ad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>708.0</value>
-      <webElementGuid>b5ccb315-1f5e-4fee-b2a6-6a6fa4e784ae</webElementGuid>
+      <webElementGuid>014a62cf-ac11-48da-a77d-4456da780bcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1684.0</value>
-      <webElementGuid>9ee0ff80-5f67-4d72-8f9f-81246c8be0fa</webElementGuid>
+      <webElementGuid>cead2687-e4ce-4cdf-ba2d-f1df68fa80a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,45 +101,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[5]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>6fb92454-5613-4c2f-a4be-ca77cb13c018</webElementGuid>
+      <webElementGuid>dcfb2c40-93eb-4d00-b909-5b65922ff1c1</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Account' and @name = 'Account' and @value = 'Account']</locator>
    <locatorCollection>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Account' and @name = 'Account' and @value = 'Account']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Account' AND name == 'Account' AND value == 'Account'`]</value>
-      </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>Account</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>Account</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value>Account</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>XCUIElementTypeStaticText</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Account' AND name == 'Account' AND name == 'Account'</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -147,11 +122,32 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Account' AND name == 'Account' AND value == 'Account'`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Account' and @name = 'Account' and @value = 'Account']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Account</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Account' AND name == 'Account' AND name == 'Account'</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Account</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
