@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>34835011-32dc-4c32-aad2-a06c6b6411d8</webElementGuid>
+      <webElementGuid>677c3a26-fc83-44a3-8d34-b62dbf592310</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>33259b0c-8662-4c3a-9176-e7815e7d467d</webElementGuid>
+      <webElementGuid>7ed7d8e0-e9e4-46dd-8ee4-4b1b34b7d004</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ca42e4d8-1ba6-409d-9618-a01ee01e4514</webElementGuid>
+      <webElementGuid>d657b956-03c4-495b-bffe-cadd7b55c1cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>36.0</value>
-      <webElementGuid>9bdeaa97-4cd7-4d9b-8c22-2d4b0bd45ad9</webElementGuid>
+      <webElementGuid>1050094a-b68d-4b05-a895-295509b44b05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b8fea23c-e3f9-4c56-a023-e9bc5afddc79</webElementGuid>
+      <webElementGuid>11e508e5-3754-4e5d-a4e7-71347989b335</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>1ac47bfd-7a0a-411e-a025-f1614781d9aa</webElementGuid>
+      <webElementGuid>9a74a855-d2ad-41e4-970a-1481332e357d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>bffdfcaa-a35e-4323-bf2b-a00e68e4d34c</webElementGuid>
+      <webElementGuid>7598dcb3-db1d-4630-8e5d-c9b122e53a9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>15be0097-ffcb-4f58-a8ee-8f7037eb58a9</webElementGuid>
+      <webElementGuid>4d7d0600-ba5f-4bba-ba52-63f83f5f745d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>110.0</value>
-      <webElementGuid>5c6bed17-a795-4900-a1dc-e80d99cd1397</webElementGuid>
+      <webElementGuid>3939b660-30a2-4bc1-a0d7-2ab12b19adb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>620.0</value>
-      <webElementGuid>8152e89a-1c1e-4d5c-a08f-a1dd1ec2e7ab</webElementGuid>
+      <webElementGuid>a1e5c37c-0c98-4e77-b2cd-1955b83658da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1626.0</value>
-      <webElementGuid>e02d9d6c-a8cf-4272-a027-8256acc3f8b0</webElementGuid>
+      <webElementGuid>6e6c996c-cc6a-4652-bedd-abcce585260c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,45 +101,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>d6426bf0-6a66-48a0-a5ed-d27b68c2091e</webElementGuid>
+      <webElementGuid>bf0a4173-eda5-4b48-a585-e014fdc86883</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Confirm' and @name = 'Confirm' and @value = 'Confirm']</locator>
    <locatorCollection>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Confirm' and @name = 'Confirm' and @value = 'Confirm']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Confirm' AND name == 'Confirm' AND value == 'Confirm'`]</value>
-      </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>Confirm</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>Confirm</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value>Confirm</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>XCUIElementTypeStaticText</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Confirm' AND name == 'Confirm' AND name == 'Confirm'</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -147,11 +122,32 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Confirm' AND name == 'Confirm' AND value == 'Confirm'`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Confirm' and @name = 'Confirm' and @value = 'Confirm']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Confirm</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Confirm' AND name == 'Confirm' AND name == 'Confirm'</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Confirm</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

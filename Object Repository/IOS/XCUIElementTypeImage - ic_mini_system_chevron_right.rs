@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>XCUIElementTypeStaticText - Edit</name>
+   <name>XCUIElementTypeImage - ic_mini_system_chevron_right</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,8 +12,8 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>c5fb6d0d-a196-4f29-9f7f-b710dc5f0abb</webElementGuid>
+      <value>XCUIElementTypeImage</value>
+      <webElementGuid>6fb6ea0e-ec16-43a2-afee-c4c461f77284</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3162d8da-efba-42c7-8b06-9bc06d8d7887</webElementGuid>
+      <webElementGuid>8a19aa59-741c-4687-92e3-4a94fde78059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,89 +29,73 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>71fabb15-62ec-46c9-ae19-224e460687a6</webElementGuid>
+      <webElementGuid>fabf9010-e00d-4eb4-81cd-8e3f598523d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>36.0</value>
-      <webElementGuid>44e41d16-012b-4a0f-ad8b-dfb6c6a96fbc</webElementGuid>
+      <value>32.0</value>
+      <webElementGuid>bf368182-32e3-4e78-837a-5116f1bc05ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>8b6d4c9b-2300-4df7-b0b5-66fdb1c4ee53</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>label</name>
-      <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>f5a6fe6e-cf0f-42c1-bf2e-9f93464b1653</webElementGuid>
+      <value>2</value>
+      <webElementGuid>49a83192-a123-4efc-8309-a6a0a2672eb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>0840d91c-add7-4aa1-98bb-eb93538f80a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>3e210221-30c7-4fe1-a1ba-cc5e1351924d</webElementGuid>
+      <value>ic_mini_system_chevron_right</value>
+      <webElementGuid>2f29ce31-3e1e-4c46-8719-d32b73f0b439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>52.0</value>
-      <webElementGuid>24dd5b31-8074-4d56-a7c5-433701de5b92</webElementGuid>
+      <value>32.0</value>
+      <webElementGuid>92e6f617-d6ea-4560-b5f7-58b25d2c43a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>744.0</value>
-      <webElementGuid>e4490d80-5976-4882-9cee-b26c702bc681</webElementGuid>
+      <value>724.0</value>
+      <webElementGuid>687f2a00-0ec0-4f74-93cf-8c20b5fb5c9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>238.0</value>
-      <webElementGuid>e4c5b945-703a-4e06-9bf1-09709529eb5f</webElementGuid>
+      <value>380.0</value>
+      <webElementGuid>2d98d940-4c59-4466-b8d1-a69080ae64b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>167bd659-9e62-4786-8563-e74d6292ec01</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[2]</value>
+      <webElementGuid>26c06f72-414e-4151-bd01-1b6ac4305721</webElementGuid>
    </webElementProperties>
-   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</locator>
+   <locator>//*[@type = 'XCUIElementTypeImage' and @name = 'ic_mini_system_chevron_right']</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>Edit</value>
+         <value>ic_mini_system_chevron_right</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
-         <value>XCUIElementTypeStaticText</value>
+         <value>XCUIElementTypeImage</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
@@ -119,7 +103,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[2]</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
@@ -127,7 +111,7 @@
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Edit' AND name == 'Edit' AND value == 'Edit'`]</value>
+         <value>**/XCUIElementTypeImage[`enabled == 1 AND name == 'ic_mini_system_chevron_right'`]</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -135,19 +119,19 @@
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</value>
+         <value>//*[@type = 'XCUIElementTypeImage' and @name = 'ic_mini_system_chevron_right']</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>Edit</value>
+         <value>ic_mini_system_chevron_right</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Edit' AND name == 'Edit' AND name == 'Edit'</value>
+         <value>type == 'XCUIElementTypeImage' AND enabled == 1 AND name == 'ic_mini_system_chevron_right'</value>
       </entry>
       <entry>
          <key>NAME</key>
-         <value>Edit</value>
+         <value>ic_mini_system_chevron_right</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>

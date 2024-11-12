@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>XCUIElementTypeStaticText - Edit</name>
+   <name>XCUIElementTypeStaticText - Buat Token</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,15 +13,15 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>c5fb6d0d-a196-4f29-9f7f-b710dc5f0abb</webElementGuid>
+      <webElementGuid>52c10a81-371e-419f-a69f-28643d6f445d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>accessible</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>3162d8da-efba-42c7-8b06-9bc06d8d7887</webElementGuid>
+      <value>true</value>
+      <webElementGuid>c2345082-6d34-4718-a39b-325b6cb7dafc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,85 +29,85 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>71fabb15-62ec-46c9-ae19-224e460687a6</webElementGuid>
+      <webElementGuid>2836ce57-90b1-4300-86a7-184006fd521e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>36.0</value>
-      <webElementGuid>44e41d16-012b-4a0f-ad8b-dfb6c6a96fbc</webElementGuid>
+      <value>80.0</value>
+      <webElementGuid>351a2c3d-4c5a-4f54-b3f0-b1d2ba751835</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>8b6d4c9b-2300-4df7-b0b5-66fdb1c4ee53</webElementGuid>
+      <value>1</value>
+      <webElementGuid>4f95efbd-fa0e-4aa5-b9a7-1867c991d7be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>label</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>f5a6fe6e-cf0f-42c1-bf2e-9f93464b1653</webElementGuid>
+      <value>Buat Token</value>
+      <webElementGuid>dd9a16c9-b5ea-4bff-b6c8-11b4b395af81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>0840d91c-add7-4aa1-98bb-eb93538f80a9</webElementGuid>
+      <value>Buat Token</value>
+      <webElementGuid>b944a3f5-9602-4af3-ac0d-4f899a3c2376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>3e210221-30c7-4fe1-a1ba-cc5e1351924d</webElementGuid>
+      <value>Buat Token</value>
+      <webElementGuid>c3634866-72df-486c-9a25-c167dc575cd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>52.0</value>
-      <webElementGuid>24dd5b31-8074-4d56-a7c5-433701de5b92</webElementGuid>
+      <value>192.0</value>
+      <webElementGuid>269d5be5-89c2-45ce-9a2d-b1d9a256cadd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>744.0</value>
-      <webElementGuid>e4490d80-5976-4882-9cee-b26c702bc681</webElementGuid>
+      <value>16.0</value>
+      <webElementGuid>0b2e051a-8d17-47c3-8f98-198678a44505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>238.0</value>
-      <webElementGuid>e4c5b945-703a-4e06-9bf1-09709529eb5f</webElementGuid>
+      <value>1596.0</value>
+      <webElementGuid>4e0b5ca0-cd2e-476a-975e-7f388070f6cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>167bd659-9e62-4786-8563-e74d6292ec01</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[5]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
+      <webElementGuid>8065b0ff-a3f8-4494-9bc3-00c720e2ecd1</webElementGuid>
    </webElementProperties>
-   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</locator>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Buat Token' and @name = 'Buat Token' and @value = 'Buat Token']</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>Edit</value>
+         <value>Buat Token</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -119,7 +119,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[5]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
@@ -127,7 +127,7 @@
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Edit' AND name == 'Edit' AND value == 'Edit'`]</value>
+         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Buat Token' AND name == 'Buat Token' AND value == 'Buat Token'`]</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -135,19 +135,19 @@
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</value>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Buat Token' and @name = 'Buat Token' and @value = 'Buat Token']</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>Edit</value>
+         <value>Buat Token</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Edit' AND name == 'Edit' AND name == 'Edit'</value>
+         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Buat Token' AND name == 'Buat Token' AND name == 'Buat Token'</value>
       </entry>
       <entry>
          <key>NAME</key>
-         <value>Edit</value>
+         <value>Buat Token</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>

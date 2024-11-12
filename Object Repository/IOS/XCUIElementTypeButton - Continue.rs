@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>15aec773-a07b-48da-a891-31869074df6f</webElementGuid>
+      <webElementGuid>f631de15-bd23-4ceb-b924-330db93b26da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cc3bcf3e-c0c8-4193-be33-5eb8f0feb6d4</webElementGuid>
+      <webElementGuid>f0f3ba70-46ae-4e21-8c62-6fc0a50bbc7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d150cc4d-9890-44c7-bbb3-06cc166da02c</webElementGuid>
+      <webElementGuid>4e19bd24-4b79-485c-bba2-880cbca44cea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>92.0</value>
-      <webElementGuid>e1bc069c-b575-4d13-af0b-6959bc5b5613</webElementGuid>
+      <webElementGuid>78795361-0e84-4a49-a2db-5130a8a742e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>fe8ffccd-f5f3-4898-964d-cce56b2676df</webElementGuid>
+      <webElementGuid>0765a5d4-cef1-4d16-9928-0580b1c72169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>49ee9322-0ed1-4799-8dfc-921ab0d43503</webElementGuid>
+      <webElementGuid>b1eca611-d22e-4d2d-be8c-a198b526cfad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>0979436f-c2bd-48b4-a67d-fe98d1b53be9</webElementGuid>
+      <webElementGuid>63033635-d552-4f07-b260-1409e6d6a1ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>764.0</value>
-      <webElementGuid>2c042046-9146-403f-8f86-efaa2bb5be09</webElementGuid>
+      <webElementGuid>23994a7a-c73b-481b-889f-5d43a152a714</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>32.0</value>
-      <webElementGuid>70ef66b7-22c8-4619-a461-87e59a11e2c3</webElementGuid>
+      <webElementGuid>3ebec762-fac3-4faa-8e88-7f742be6f420</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1600.0</value>
-      <webElementGuid>84fa1314-4e3b-4d0b-90f2-3af05ae1550c</webElementGuid>
+      <webElementGuid>f43dd9f8-719f-48d0-a642-fe6d3c35f6c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>5417b73c-db13-4b6b-a170-1caeb772bcf1</webElementGuid>
+      <webElementGuid>48885361-8237-4233-83c1-e58f2ccf10d8</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Continue' and @name = 'Continue']</locator>
    <locatorCollection>

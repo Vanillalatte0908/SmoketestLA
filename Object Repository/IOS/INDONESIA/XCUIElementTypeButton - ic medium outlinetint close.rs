@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>XCUIElementTypeStaticText - Edit</name>
+   <name>XCUIElementTypeButton - ic medium outlinetint close</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,16 +12,16 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>c5fb6d0d-a196-4f29-9f7f-b710dc5f0abb</webElementGuid>
+      <value>XCUIElementTypeButton</value>
+      <webElementGuid>64092b11-e6e9-458e-9090-9ad91201e448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>accessible</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>3162d8da-efba-42c7-8b06-9bc06d8d7887</webElementGuid>
+      <value>true</value>
+      <webElementGuid>8f285c56-3b39-4a8f-a494-f449565a3ae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,15 +29,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>71fabb15-62ec-46c9-ae19-224e460687a6</webElementGuid>
+      <webElementGuid>9ca3b586-2ae0-4675-8d26-07345bfbfcc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>36.0</value>
-      <webElementGuid>44e41d16-012b-4a0f-ad8b-dfb6c6a96fbc</webElementGuid>
+      <value>88.0</value>
+      <webElementGuid>8a207d11-4c54-4a10-aa11-c20c2e1dbb7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,73 +45,65 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8b6d4c9b-2300-4df7-b0b5-66fdb1c4ee53</webElementGuid>
+      <webElementGuid>b77fb8ac-b56f-4205-9951-3aeda4aa4029</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>label</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>f5a6fe6e-cf0f-42c1-bf2e-9f93464b1653</webElementGuid>
+      <value>ic medium outlinetint close</value>
+      <webElementGuid>81371a79-20fb-4838-aecb-ba605b87b65b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>0840d91c-add7-4aa1-98bb-eb93538f80a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>3e210221-30c7-4fe1-a1ba-cc5e1351924d</webElementGuid>
+      <value>ic medium outlinetint close</value>
+      <webElementGuid>7efe8023-f5d7-4daf-b2ce-d55be02584bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>52.0</value>
-      <webElementGuid>24dd5b31-8074-4d56-a7c5-433701de5b92</webElementGuid>
+      <value>86.0</value>
+      <webElementGuid>e129db26-ccf8-4c7f-89a0-e92abd36483b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>744.0</value>
-      <webElementGuid>e4490d80-5976-4882-9cee-b26c702bc681</webElementGuid>
+      <value>24.0</value>
+      <webElementGuid>34c91cf2-1a58-4f6c-8dbd-f7ce068bfd3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>238.0</value>
-      <webElementGuid>e4c5b945-703a-4e06-9bf1-09709529eb5f</webElementGuid>
+      <value>128.0</value>
+      <webElementGuid>68ff8479-dc02-46aa-a126-b6b2c30eb350</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>167bd659-9e62-4786-8563-e74d6292ec01</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]</value>
+      <webElementGuid>07f8c834-5bf8-471d-8bb2-01f7d47f2f0a</webElementGuid>
    </webElementProperties>
-   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</locator>
+   <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'ic medium outlinetint close' and @name = 'ic medium outlinetint close']</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>Edit</value>
+         <value>ic medium outlinetint close</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
-         <value>XCUIElementTypeStaticText</value>
+         <value>XCUIElementTypeButton</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
@@ -119,7 +111,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
@@ -127,7 +119,7 @@
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Edit' AND name == 'Edit' AND value == 'Edit'`]</value>
+         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'ic medium outlinetint close' AND name == 'ic medium outlinetint close'`]</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -135,19 +127,19 @@
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</value>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'ic medium outlinetint close' and @name = 'ic medium outlinetint close']</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>Edit</value>
+         <value>ic medium outlinetint close</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Edit' AND name == 'Edit' AND name == 'Edit'</value>
+         <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'ic medium outlinetint close' AND name == 'ic medium outlinetint close'</value>
       </entry>
       <entry>
          <key>NAME</key>
-         <value>Edit</value>
+         <value>ic medium outlinetint close</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>

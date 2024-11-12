@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-IOS-ID-0002- Menu Lihat Semua</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0f36b87-f884-4857-bb5a-83bd2b2dd27b</testCaseGuid>
+</TestCaseEntity>

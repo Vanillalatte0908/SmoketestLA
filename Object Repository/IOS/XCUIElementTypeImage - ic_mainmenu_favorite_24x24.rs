@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeImage</value>
-      <webElementGuid>31d7c774-8af2-45e5-92b7-2a9cecb43802</webElementGuid>
+      <webElementGuid>49dc62b9-a307-428c-82d4-463a2bb2c093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cd0776f1-b0b2-45df-86fc-7aadfe650b0b</webElementGuid>
+      <webElementGuid>264383e8-d312-4bb1-a1ff-46471a73554b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9a1173c8-4ac9-4ad1-801b-0145ffd026e5</webElementGuid>
+      <webElementGuid>7d8dc50a-d284-45ec-b136-1a85b3518c96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>48.0</value>
-      <webElementGuid>46bf6732-226a-4385-9104-af6bb6f20060</webElementGuid>
+      <webElementGuid>cf790157-9fa7-4dc3-b247-cf8d0a57db9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1c6a3132-b952-4ac0-b08a-91382759254e</webElementGuid>
+      <webElementGuid>acf8e9fc-d810-4657-b9c7-6b34050a0330</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ic_mainmenu_favorite_24x24</value>
-      <webElementGuid>c12aece6-aaf1-44ab-8863-60ea543edbe6</webElementGuid>
+      <webElementGuid>21bf141f-3b9b-4e5e-9b2e-9badc9bd97ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>width</name>
       <type>Main</type>
       <value>48.0</value>
-      <webElementGuid>8fcc424d-a3d5-4e14-8f61-63ea59412647</webElementGuid>
+      <webElementGuid>bcb28fb2-ca54-47ea-a661-68501b5d0fe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>x</name>
       <type>Main</type>
       <value>636.0</value>
-      <webElementGuid>f6da3baa-0b40-448c-899f-3d21f6c89d4f</webElementGuid>
+      <webElementGuid>b8b5c601-c19e-46d3-99c0-6075673aae8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>y</name>
       <type>Main</type>
       <value>144.0</value>
-      <webElementGuid>c2bfe134-b2e6-4924-8ebc-3b9d5061615c</webElementGuid>
+      <webElementGuid>205ee81b-52fc-45a6-af65-7d48d6489029</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeImage[1]</value>
-      <webElementGuid>8b70cdf8-f515-4a1c-96e2-88e4c6b93c66</webElementGuid>
+      <webElementGuid>90d20efc-fa46-4c4c-b3bc-891d6ff2369c</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeImage' and @name = 'ic_mainmenu_favorite_24x24']</locator>
    <locatorCollection>

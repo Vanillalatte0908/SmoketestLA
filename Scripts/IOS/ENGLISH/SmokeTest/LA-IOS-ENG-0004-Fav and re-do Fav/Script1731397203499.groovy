@@ -17,3 +17,36 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mainmenu_favorite_24x24'), 0)
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mini_system_chevron_right'), 0)
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Edit'), 0)
+
+Mobile.clearText(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Smokettest1'), 0)
+
+Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Create a name for this transaction'), 'Smoketest II')
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Save'), 0)
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Go to Payment'), 0)
+
+Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - 0'), '1')
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Done'), 0)
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Continue'), 0)
+
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Confirm'), 0)
+
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - 1'), 0)
+
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - 2'), 0)
+
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - 3'), 0)
+
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - 4'), 0)
+
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - 5'), 0)
+
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - 5'), 0)

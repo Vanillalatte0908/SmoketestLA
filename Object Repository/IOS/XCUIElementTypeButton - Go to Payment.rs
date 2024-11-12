@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>0faa957d-ac3c-4bba-9ce0-781381cfe4f8</webElementGuid>
+      <webElementGuid>fd889411-e112-4e63-b7a5-604cd87f5b23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2db50427-1c1f-4966-909d-f62411c6ef21</webElementGuid>
+      <webElementGuid>3c710989-f9c8-4513-80b8-2412ed000e49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>76244742-2f6a-4e35-94ea-13bb5606480a</webElementGuid>
+      <webElementGuid>2d1e81d8-5e7c-46fd-89e0-acd947cdc5e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>96.0</value>
-      <webElementGuid>bded42f1-b5d4-455c-a84e-7e85041328a9</webElementGuid>
+      <webElementGuid>6915c88b-2af3-4ca4-a825-2be3801386b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>dff55562-39f0-4f6f-94c5-7c66400d6bf3</webElementGuid>
+      <webElementGuid>3df61261-42e7-478c-bc3e-31f170d8345f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Go to Payment</value>
-      <webElementGuid>7d9b9885-58ee-468a-aaf6-fb6c1edb2e50</webElementGuid>
+      <webElementGuid>05c173c2-09e2-445a-8f13-d8cf358840e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Go to Payment</value>
-      <webElementGuid>77d91d99-b517-42f8-b312-10a5c6c9b487</webElementGuid>
+      <webElementGuid>968bee24-99e6-4d4a-b2b8-2656fea8e6f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>764.0</value>
-      <webElementGuid>01094fc2-efb5-4ed7-b530-6cdabf774b33</webElementGuid>
+      <webElementGuid>936493e1-3a83-453e-897c-0894dd0b0de3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>32.0</value>
-      <webElementGuid>7da98830-ac01-4ed6-a861-d6aa5adf3523</webElementGuid>
+      <webElementGuid>a19365d7-7cdf-4f8d-8dfe-52a1a699ed6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1664.0</value>
-      <webElementGuid>5d488b2e-e269-4ec5-b3ae-51b1bb84e54f</webElementGuid>
+      <webElementGuid>1f700010-12ef-4c7d-b214-406d985576f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>55042268-82b1-424f-a8d5-ed0e2fca86e6</webElementGuid>
+      <webElementGuid>7f6b32b6-b9b3-4ac4-88ef-f0d91e0d5644</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Go to Payment' and @name = 'Go to Payment']</locator>
    <locatorCollection>

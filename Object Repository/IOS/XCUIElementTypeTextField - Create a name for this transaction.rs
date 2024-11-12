@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeTextField</value>
-      <webElementGuid>63236188-a0f6-4f87-91b5-c6b07de30f2d</webElementGuid>
+      <webElementGuid>52565bf3-e0dd-4d62-8272-2ab4d341f770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1a9dff6f-cb60-48c4-9181-b9f9e921fadf</webElementGuid>
+      <webElementGuid>8f23741b-fe4a-475a-b170-cfb15e433309</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>61386c22-0c50-47e6-a9b3-a4240d98afe8</webElementGuid>
+      <webElementGuid>385bbec2-79a8-4f48-9c0e-f5664eb0ab00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>88.0</value>
-      <webElementGuid>5c55b888-edd8-45fc-877b-f1e04cf36c27</webElementGuid>
+      <webElementGuid>c9eeca7f-66bb-418a-8c0b-830b634f024b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>e01864ea-827e-44d6-b872-5904f3cb492b</webElementGuid>
+      <webElementGuid>5e894049-a6f8-4434-a41c-9bd0e6a31434</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Create a name for this transaction</value>
-      <webElementGuid>72113a77-8db8-4748-bb31-4981c6d1f4d0</webElementGuid>
+      <webElementGuid>2db04445-6f36-4c18-9d4a-605c35231c13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>width</name>
       <type>Main</type>
       <value>764.0</value>
-      <webElementGuid>c5302a66-5cd1-4485-8f83-06151907ea07</webElementGuid>
+      <webElementGuid>3f6f1dff-e3ec-4c1f-88a6-ed42132fc1a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>x</name>
       <type>Main</type>
       <value>32.0</value>
-      <webElementGuid>62c1fd09-61b2-4ff9-a415-4e6a17ad6e14</webElementGuid>
+      <webElementGuid>e8012f08-8085-412a-a35a-808fd243e98c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>y</name>
       <type>Main</type>
       <value>846.0</value>
-      <webElementGuid>3404a8f2-9e73-46e1-87d3-002cd2c90ebe</webElementGuid>
+      <webElementGuid>3d927843-127d-4920-bcfe-a851511c8e16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]</value>
-      <webElementGuid>5ad989ae-a849-4d65-80ee-b622093ef054</webElementGuid>
+      <webElementGuid>e43376b1-d0e5-4088-9ee7-6d8b925c2856</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeTextField' and @value = 'Create a name for this transaction']</locator>
    <locatorCollection>
