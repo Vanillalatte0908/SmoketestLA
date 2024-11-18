@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3fa8252d-13f4-4c9c-8244-4e6af147119b</testSuiteGuid>
    <testCaseLink>
-      <guid>1721ef0b-93b1-4d62-beec-8bdc5a9cc0b5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0008-Login without OTP</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1b2467b5-f8d1-4552-9fcb-014960e817de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -26,17 +19,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0344e60f-1709-4db7-b9a5-773bcdb6f4a3</guid>
+      <guid>1721ef0b-93b1-4d62-beec-8bdc5a9cc0b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0007-Login Wihout OTP and change PIN</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d705a595-b2e9-4c82-8057-ef58c6df704f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0006-Check balance and Bonus balance</testCaseId>
+      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0008-Login without OTP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -86,6 +72,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0001-Change Language</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d705a595-b2e9-4c82-8057-ef58c6df704f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0006-Check balance and Bonus balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

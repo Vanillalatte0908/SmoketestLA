@@ -458,10 +458,10 @@
 [38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     t =    95.36s Requesting snapshot of accessibility hierarchy for app with pid 14961
 [38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m 2024-11-12 17:45:28.709764+0700 WebDriverAgentRunner-Runner[14959:1523575] The following attributes were requested to be included into the XML: {(
 [38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
-[38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     FBNameAttribute,
-[38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     FBTypeAttribute
-[38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m )}
-[38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     t =    96.41s Requesting snapshot of accessibility hierarchy for app with pid 14961
+[38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     FBNameAtt[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 5ms
+   96.41s Requesting snapshot of accessibility hierarchy for app with pid 14961
 [38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m 2024-11-12 17:45:29.826255+0700 WebDriverAgentRunner-Runner[14959:1523575] The following attributes were requested to be included into the XML: {(
 [38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
 [38;5;152m[3958ee29][0m[38;5;173m[Xcode][0m     FBNameAttribute,
