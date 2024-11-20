@@ -39,4 +39,5 @@ class Listener {
         // Closing the application after each test case
         Mobile.closeApplication()
     }
+	
 }

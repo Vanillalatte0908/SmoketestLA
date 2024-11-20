@@ -258,14 +258,14 @@ class Oneflowenglish {
 	def tapVoucher() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - Voucher'), 3)
 	}
-	
+
 	// CASHOUT WITHDRAWAL
-	
+
 	@When("I tap on 'cashout' on the dashboard1")
 	def tapCashOut() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - CashOut'), 0)
 	}
-	
+
 	@Then("I take a screenshot of the current screen")
 	def takeScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -273,35 +273,35 @@ class Oneflowenglish {
 		String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 		String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "CW"
 		Files.createDirectories(Paths.get(folderPath))
-	
+
 		Mobile.delay(10)
 		Mobile.takeScreenshot(folderPath + '/ CW' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'ATM Withdrawal'")
 	def tapATMWithdrawal() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - ATM Withdrawal'), 5)
 	}
-			
+
 	@When("I tap on {string} tap1")
 	def tapHIMBARA(String bankName) {
-    def testObject
-    if (bankName == "Association of State-Owned Banks (HIMBARA)") {
-        testObject = findTestObject('Object Repository/ANDROID/DashboardLA/BankAssociations/android.widget.TextView - HIMBARA')
-    } else {
-        throw new IllegalArgumentException("Bank association not recognized: ${bankName}")
-    }
+		def testObject
+		if (bankName == "Association of State-Owned Banks (HIMBARA)") {
+			testObject = findTestObject('Object Repository/ANDROID/DashboardLA/BankAssociations/android.widget.TextView - HIMBARA')
+		} else {
+			throw new IllegalArgumentException("Bank association not recognized: ${bankName}")
+		}
 
-    Mobile.waitForElementPresent(testObject, 10)
-    Mobile.tap(testObject, 5)
-}
-	
-	
+		Mobile.waitForElementPresent(testObject, 10)
+		Mobile.tap(testObject, 5)
+	}
+
+
 	@When("I tap on 'Rp 100.000' tap2")
 	def tapAmount() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Rp 100.000'), 5)
 	}
-	
+
 	@Then("I take a screenshot of the selected ATM withdrawal")
 	def takeAmountScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -311,12 +311,12 @@ class Oneflowenglish {
 		Mobile.delay(10)
 		Mobile.takeScreenshot(folderPath + '/ CW2' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'BCA' tap3")
 	def tapBCA() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - BCA'), 0)
 	}
-	
+
 	@Then("I take a screenshot of BCA payment screen")
 	def takeBCAScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -326,12 +326,12 @@ class Oneflowenglish {
 		Mobile.delay(10)
 		Mobile.takeScreenshot(folderPath + '/ CW2' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'Rp 100.000' again")
 	def tapAmountAgain() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Rp 100.000'), 0)
 	}
-	
+
 	@Then("I take a screenshot of the final ATM withdrawal confirmation")
 	def takeFinalScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -341,7 +341,7 @@ class Oneflowenglish {
 		Mobile.delay(10)
 		Mobile.takeScreenshot(folderPath + '/ CW1' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'ImageButton' three times")
 	def tapImageButtonThreeTimes() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.ImageButton (1)'), 0)
@@ -349,12 +349,12 @@ class Oneflowenglish {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.ImageButton (1)'), 0)
 	}
 	// E-Statment
-	
+
 	@When("I tap on 'E-statement LinkAja'")
 	def tapEStatement() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - E-statement LinkAja'), 10)
 	}
-	
+
 	@Then("I take a screenshot of the e-statement screen")
 	def takeEStatementScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -362,29 +362,29 @@ class Oneflowenglish {
 		String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 		String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + 'E-statment and Voucher'
 		Files.createDirectories(Paths.get(folderPath))
-	
+
 		Mobile.delay(20)
 		Mobile.takeScreenshot(folderPath + '/ Estatment' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'See All' again")
 	def tapSeeAllAgain() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - See All'), 0)
 	}
-	
+
 	@Then("I take a screenshot of the voucher screen")
 	def takeVoucherScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 		String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 		String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 		String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + 'E-statment and Voucher'
-	
+
 		Mobile.takeScreenshot(folderPath + '/ Voucher' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	//MY QR GENERATE
 
-	
+
 	@Then("I take a screenshot of the MyQR screen")
 	def takeMyQRScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
@@ -392,33 +392,33 @@ class Oneflowenglish {
 		String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 		String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "MyQR"
 		Files.createDirectories(Paths.get(folderPath))
-	
+
 		Mobile.delay(10)
 		Mobile.takeScreenshot(folderPath + '/ MyQR' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'My QR'")
 	def tapMyQR() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - My QR'), 5)
 	}
-	
+
 	@Then("I take another screenshot of the MyQR details screen")
 	def takeMyQRDetailsScreenshot() {
 		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 		String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 		String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 		String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "MyQR"
-		
+
 		Mobile.delay(10)
 		Mobile.takeScreenshot(folderPath + '/ MyQR1' + todaysDate + '_' + nowTime + '.png')
 	}
-	
+
 	@When("I tap on 'Back Button'")
 	def tapBackButton() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.ImageButton'), 0)
 	}
-	// GENERATE TOKEN 
-	
+	// GENERATE TOKEN
+
 	@When("I navigate to the {string} section in MyQR and Token")
 	public void navigateToSection(String sectionName) throws Exception {
 		Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - " + sectionName), 0);
@@ -440,50 +440,50 @@ class Oneflowenglish {
 	public void waitForResponse() throws Exception {
 		Mobile.delay(10);
 	}
-//P2P
-	
-	 @When('I tap on {string} on the dashboard')
-    def tapOnDashboard(String elementName) {
-        Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/android.widget.TextView - Send Money"), 2)
-    }
+	//P2P
 
-    @Then('I capture a screenshot labeled {string}')
-    def captureScreenshot(String label) {
-        String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
-        Mobile.takeScreenshot("${folderPath}/${label}${todaysDate}_${nowTime}.png")
-    }
+	@When('I tap on {string} on the dashboard')
+	def tapOnDashboard(String elementName) {
+		Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/android.widget.TextView - Send Money"), 2)
+	}
 
-    @When('I tap on {string} under MyQR and Token')
-    def tapMyQRToken(String elementName) {
-        Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - Phone Number"), 5)
-    }
+	@Then('I capture a screenshot labeled {string}')
+	def captureScreenshot(String label) {
+		String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
+		Mobile.takeScreenshot("${folderPath}/${label}${todaysDate}_${nowTime}.png")
+	}
 
-    @When('I select the recipient')
-    def selectRecipient() {
-        Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.view.ViewGroup (3)'), 5)
-    }
+	@When('I tap on {string} under MyQR and Token')
+	def tapMyQRToken(String elementName) {
+		Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.TextView - Phone Number"), 5)
+	}
 
-    @When('I tap the amount input field')
-    def tapAmountInputField() {
-        Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.EditText - 0'), 0)
-    }
+	@When('I select the recipient')
+	def selectRecipient() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.view.ViewGroup (3)'), 5)
+	}
 
-  @When("I enter the amount {string}")
-  	def enterAmount(String amount) {
-    Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.EditText - 0'), amount)
-	  }
+	@When('I tap the amount input field')
+	def tapAmountInputField() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.EditText - 0'), 0)
+	}
 
-    @When('I navigate back and proceed by tapping {string}')
-    def navigateBackAndTapNext(String buttonName) {
-        Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/android.widget.Button - Next"), 0)
-    }
+	@When("I enter the amount {string}")
+	def enterAmount(String amount) {
+		Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.EditText - 0'), amount)
+	}
 
-    @When('I confirm the transaction')
-    def confirmTransaction() {
-        Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Confirm'), 0)
-    }
-	
-// CHANGE LANGUAGE
+	@When('I navigate back and proceed by tapping {string}')
+	def navigateBackAndTapNext(String buttonName) {
+		Mobile.tap(findTestObject("Object Repository/ANDROID/DashboardLA/android.widget.Button - Next"), 0)
+	}
+
+	@When('I confirm the transaction')
+	def confirmTransaction() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Confirm'), 0)
+	}
+
+	// CHANGE LANGUAGE
 
 	@When('the user changes the language to "English"')
 	def changeToEnglish() {
@@ -499,7 +499,7 @@ class Oneflowenglish {
 		takeScreenshot("IndonesianLanguage")
 	}
 
-	
+
 	@When("the user navigates to the Profile page1")
 	def navigateToProfile1() {
 		Mobile.tap(findTestObject('ANDROID/DashboardLA/android.widget.TextView - Profil'), 5)
@@ -528,8 +528,8 @@ class Oneflowenglish {
 		Mobile.delay(10)
 		takeScreenshot("HomePageLoaded")
 	}
-//FLIGHT MODE
-	
+	//FLIGHT MODE
+
 	@When("I navigate to the Connections screen")
 	public void iNavigateToConnectionsScreen() {
 		Mobile.pressBack();
