@@ -117,23 +117,24 @@ Feature: smoketestandroidenglish
     When I tap on 'Rp 100.000' tap2
     Then I take a screenshot of the selected ATM withdrawal
     When The user taps the ImageButton
+    When The user taps the ImageButton
     When I tap on 'BCA' tap3
     Then I take a screenshot of BCA payment screen
     When I tap on 'Rp 100.000' again
     Then I take a screenshot of the final ATM withdrawal confirmation
+    When The user taps the ImageButton    
+    When The user taps the ImageButton
+    When The user taps the ImageButton
     When The user taps the ImageButton
     
    Scenario: LA-00014-ENG-User Verify language switching in the app
     When I navigate to the Profile page
-    And changes the language to "English"
-    Then a screenshot is taken for the "English" interface
-    When the user changes the language back to "Indonesia"
-    Then a screenshot is taken for the "Indonesia" interface
+    When changes the language to English
+    When the user changes the language back to Indonesia
     When the user navigates to the Profile page1
-    And the user taps on Bahasa option
-    And the user changes the language to English1
+		When the user taps on Bahasa option
+    When the user changes the language to English1
     When the user waits for Home page to load
-    Then a screenshot is taken for the "HomePageLoaded" interface
     
   	Scenario: LA-00015-ENG-User logs out from the application
     When I navigate to the Profile page

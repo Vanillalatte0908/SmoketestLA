@@ -285,15 +285,8 @@ class Oneflowenglish {
 
 	@When("I tap on {string} tap1")
 	def tapHIMBARA(String bankName) {
-		def testObject
-		if (bankName == "Association of State-Owned Banks (HIMBARA)") {
-			testObject = findTestObject('Object Repository/ANDROID/DashboardLA/BankAssociations/android.widget.TextView - HIMBARA')
-		} else {
-			throw new IllegalArgumentException("Bank association not recognized: ${bankName}")
-		}
-
-		Mobile.waitForElementPresent(testObject, 10)
-		Mobile.tap(testObject, 5)
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Association of State-Owned Banks (HIMBARA)'),
+			0)
 	}
 
 
@@ -485,18 +478,14 @@ class Oneflowenglish {
 
 	// CHANGE LANGUAGE
 
-	@When('the user changes the language to "English"')
+	@When('the user changes the language to English')
 	def changeToEnglish() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - English'), 5)
-		Mobile.delay(10)
-		takeScreenshot("EnglishLanguage")
-	}
+			}
 
-	@When('the user changes the language back to "Indonesia"')
+	@When('the user changes the language back to Indonesia')
 	def changeToIndonesian() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - Indonesia'), 5)
-		Mobile.delay(10)
-		takeScreenshot("IndonesianLanguage")
 	}
 
 
@@ -510,23 +499,17 @@ class Oneflowenglish {
 	@When("the user taps on Bahasa option")
 	def tapBahasaOption() {
 		Mobile.tap(findTestObject('ANDROID/DashboardLA/android.widget.TextView - Bahasa'), 5)
-		Mobile.delay(10)
-		takeScreenshot("BahasaOption")
 	}
 
-	@When("the user changes the language to English")
+	@When("the user changes the language to English1")
 	def changeToEnglish1() {
 		Mobile.tap(findTestObject('ANDROID/DashboardLA/bahasa/android.widget.TextView - English (1)'), 5)
-		Mobile.delay(10)
-		takeScreenshot("ChangedToEnglish")
 	}
 
 
 	@Then("the user waits for Home page to load")
 	def waitForHomePage() {
 		Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 5)
-		Mobile.delay(10)
-		takeScreenshot("HomePageLoaded")
 	}
 	//FLIGHT MODE
 
