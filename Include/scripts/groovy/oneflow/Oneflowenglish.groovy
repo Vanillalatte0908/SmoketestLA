@@ -286,7 +286,7 @@ class Oneflowenglish {
 	@When("I tap on {string} tap1")
 	def tapHIMBARA(String bankName) {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Association of State-Owned Banks (HIMBARA)'),
-			0)
+				0)
 	}
 
 
@@ -481,7 +481,7 @@ class Oneflowenglish {
 	@When('the user changes the language to English')
 	def changeToEnglish() {
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/bahasa/android.widget.TextView - English'), 5)
-			}
+	}
 
 	@When('the user changes the language back to Indonesia')
 	def changeToIndonesian() {
@@ -489,7 +489,7 @@ class Oneflowenglish {
 	}
 
 
-	@When("the user navigates to the Profile page1")
+	@When("the user navigates to the Profile indo page1")
 	def navigateToProfile1() {
 		Mobile.tap(findTestObject('ANDROID/DashboardLA/android.widget.TextView - Profil'), 5)
 		Mobile.delay(10)
@@ -511,35 +511,32 @@ class Oneflowenglish {
 	def waitForHomePage() {
 		Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 5)
 	}
-	//FLIGHT MODE
 
-	@When("I navigate to the Connections screen")
-	public void iNavigateToConnectionsScreen() {
-		Mobile.pressBack();
-		Mobile.tap(findTestObject("Object Repository/ANDROID/Connection/android.widget.TextView - Connections"), 5);
+	// CHANGE PIN BEFORE LOGIN
+
+
+	@And("the user navigates to Forgot PIN and selects a security question")
+	def navigateToForgotPIN() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Forgot PIN'), 0)
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Security Question'), 0)
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText - Select a security question'), 0)
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - What is your mothers maiden name'), 0)
 	}
 
-	@When("I toggle the Flight Mode switch")
-	public void iToggleTheFlightModeSwitch() {
-		Mobile.tap(findTestObject("Object Repository/ANDROID/Connection/android.widget.Switch"), 5);
+	@And("the user enters the answer {string}")
+	def enterSecurityAnswer(String answer) {
+		Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText - Enter your answer (1)'), answer)
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Continue'), 0)
+	}
+	@And("the user the re enter the pinned {string}")
+	def enterRePin(String pinned) {
+		Mobile.delay(10)
+		Mobile.sendKeys(findTestObject('ANDROID/Login without OTP/android.widget.EditText'), pinned)
 	}
 
-	@Then("I take a screenshot after toggling the Flight Mode")
-	public void iTakeScreenshotAfterTogglingFlightMode() {
-		Mobile.delay(10);
-		Mobile.takeScreenshot(folderPath + "/FlightMode" + todaysDate + "_" + nowTime + ".png");
-	}
-
-	@When("I close the app and reopen it")
-	public void iCloseAndReopenApp() {
-		Mobile.pressBack();
-		Mobile.startExistingApplication("com.telkom.mwallet");
-		Mobile.waitForElementPresent(findTestObject("ANDROID/DashboardLA/Home/android.widget.TextView - Home"), 0);
-	}
-
-	@Then("I take another screenshot")
-	public void iTakeAnotherScreenshot() {
-		Mobile.delay(10);
-		Mobile.takeScreenshot(folderPath + "/FlightMode3" + todaysDate + "_" + nowTime + ".png");
+	@And("the user confirms the action")
+	def confirmAction() {
+		Mobile.delay(20)
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
 	}
 }

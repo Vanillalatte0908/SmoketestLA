@@ -48,7 +48,7 @@ Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.wi
 
 Mobile.delay(10)
 
-Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText'), '123455')\
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText'), '123455')
 
 Mobile.delay(20)
 

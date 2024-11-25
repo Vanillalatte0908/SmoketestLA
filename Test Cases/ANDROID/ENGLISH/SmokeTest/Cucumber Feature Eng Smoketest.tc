@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout</name>
+   <name>Cucumber Feature Eng Smoketest</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0a81efcf-3ff5-49eb-89ca-16901070c445</testCaseGuid>
+   <testCaseGuid>237a25ea-5a10-47c4-82d3-fe6505443b3c</testCaseGuid>
 </TestCaseEntity>
