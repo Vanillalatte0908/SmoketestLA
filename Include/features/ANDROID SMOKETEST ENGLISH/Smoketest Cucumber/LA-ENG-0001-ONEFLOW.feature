@@ -1,9 +1,32 @@
 @smoketestandroidenglish
 Feature: smoketestandroidenglish
 
-
-        Scenario: Resetting PIN via security question BEFORE LOGIN
+      Scenario: LA-00001-ENG-Login with phone number without OTP
              When I enter the phone number "85281409935"
+              And I take a screenshot "Login"
+              And I click the start button
+              And I enter the PIN "123455"
+              And I take a screenshot "Login1"
+             Then I should see the home screen
+              And I take a screenshot "Login2"
+
+				 Scenario: Successfully change PIN with valid inputs
+  			  When I navigate to the Profile section1
+  			  And I tap on PIN Settings1
+  			  And I prepare a folder for screenshots1
+   			  And I take a screenshot with name1 "ChangePin"
+  			  And I tap on Change PIN1
+  			  And I take a screenshot with name1 "ChangePin1"
+          And I enter the PIN "123455"
+  			  And I take a screenshot with name1 "ChangePin2"
+  			  And I enter the PIN "112233"
+          And the user the re enter the pinned "112233"
+   			  And I take a screenshot with name1 "ChangePin4"
+   			  And the user confirms the action
+   			  
+        Scenario: Resetting PIN via security question BEFORE LOGIN
+       			  And the user confirms the action
+              When I enter the phone number "85281409935"
               And I click the start button
               And the user navigates to Forgot PIN and selects a security question
               And the user enters the answer "Linkaja"
@@ -81,7 +104,7 @@ Feature: smoketestandroidenglish
               And I enter the PIN "123455"
               And I wait for the application to respond
               And I take a screenshot of the dashboard
-             When The user taps the ImageButton
+              When The user taps the ImageButton
    
         Scenario: LA-00011-ENG-User Check Profile, Payment Method, and Policy sections
              When I navigate to the Profile page

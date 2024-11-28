@@ -12,7 +12,7 @@ import cucumber.api.java.en.When
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Then
 
-class Oneflowenglish {
+class LAENG {
 	// Initialize variables for folder paths and timestamps
 	String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 	String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
@@ -538,5 +538,40 @@ class Oneflowenglish {
 	def confirmAction() {
 		Mobile.delay(20)
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
+	}
+	//CHANGE PIN in apps
+
+	@When("I navigate to the Profile section1")
+	def navigateToProfile2() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/Home/android.widget.TextView - Profile'), 5)
+	}
+
+	@And("I tap on PIN Settings1")
+	def tapPinSettingss() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - PIN Settings'), 0)
+	}
+
+	@And("I prepare a folder for screenshots1")
+	def prepareFolder2() {
+		String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
+		todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
+		nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
+		folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + 'ChangePin'
+		Files.createDirectories(Paths.get(folderPath))
+	}
+
+	@And("I take a screenshot with name1 {string}")
+	def takeScreenshot2(String screenshotName) {
+		Mobile.takeScreenshot(folderPath + '/' + screenshotName + todaysDate + '_' + nowTime + '.png')
+	}
+
+	@And("I tap on Change PIN1")
+	def tapChangePin() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Change PIN'), 0)
+	}
+
+	@And("I enter the PIN {string} in the field1")
+	def enterPin(String pin) {
+		Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), pin)
 	}
 }
