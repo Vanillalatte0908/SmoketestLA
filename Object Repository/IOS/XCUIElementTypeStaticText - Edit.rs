@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>c5fb6d0d-a196-4f29-9f7f-b710dc5f0abb</webElementGuid>
+      <webElementGuid>ac096496-6278-473c-a4f9-d5a468061ef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3162d8da-efba-42c7-8b06-9bc06d8d7887</webElementGuid>
+      <webElementGuid>4e5ab3c0-a2bc-4a29-bcf4-fe7202a27470</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>71fabb15-62ec-46c9-ae19-224e460687a6</webElementGuid>
+      <webElementGuid>4c0c1b1c-7771-482f-a463-3e05d0f523d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>36.0</value>
-      <webElementGuid>44e41d16-012b-4a0f-ad8b-dfb6c6a96fbc</webElementGuid>
+      <webElementGuid>7bf3b95d-6249-450a-9db1-133158dc09ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8b6d4c9b-2300-4df7-b0b5-66fdb1c4ee53</webElementGuid>
+      <webElementGuid>5f2265d5-bb7e-4181-bde0-249bdd5c0d87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>f5a6fe6e-cf0f-42c1-bf2e-9f93464b1653</webElementGuid>
+      <webElementGuid>1dd2ca93-1600-45c7-b3fc-07ec0d7c5f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>0840d91c-add7-4aa1-98bb-eb93538f80a9</webElementGuid>
+      <webElementGuid>6ac74b81-fc22-4167-809b-66da6d7f9816</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>3e210221-30c7-4fe1-a1ba-cc5e1351924d</webElementGuid>
+      <webElementGuid>14a10edc-86a3-4f68-aa31-fa81604cfcc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>52.0</value>
-      <webElementGuid>24dd5b31-8074-4d56-a7c5-433701de5b92</webElementGuid>
+      <webElementGuid>e8384816-0e1e-4aed-a433-e9a19051fa49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>744.0</value>
-      <webElementGuid>e4490d80-5976-4882-9cee-b26c702bc681</webElementGuid>
+      <webElementGuid>ffd65ae3-c944-472f-b0a4-558b316e3e3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>238.0</value>
-      <webElementGuid>e4c5b945-703a-4e06-9bf1-09709529eb5f</webElementGuid>
+      <webElementGuid>fb142a35-cccc-4aa8-837f-b8dd43ae8938</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,45 +101,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>167bd659-9e62-4786-8563-e74d6292ec01</webElementGuid>
+      <webElementGuid>681d95ad-e05e-4dcb-a6af-4f58acd84e85</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</locator>
    <locatorCollection>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ID</key>
          <value>Edit</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>XCUIElementTypeStaticText</value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-         <value></value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Edit' AND name == 'Edit' AND value == 'Edit'`]</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>Edit</value>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
@@ -150,8 +128,26 @@
          <value>Edit</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Edit' and @name = 'Edit' and @value = 'Edit']</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeStaticText</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Edit</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

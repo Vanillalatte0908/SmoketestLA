@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N_REG_LA-0005-INVALID PIN IN APPS GENERATE PAYCODE</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d41db0f-5f4f-4edc-b1c5-2da25a7b2312</testCaseGuid>
+</TestCaseEntity>

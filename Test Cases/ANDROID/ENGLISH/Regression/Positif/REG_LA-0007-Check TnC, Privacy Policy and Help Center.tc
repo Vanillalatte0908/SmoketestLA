@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>REG_LA-0006-Reset PIN</name>
+   <name>REG_LA-0007-Check TnC, Privacy Policy and Help Center</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ab4e564c-1828-4982-b002-2fad29a40e9c</testCaseGuid>
+   <testCaseGuid>0d694efa-db06-4aae-b446-91a284585a0a</testCaseGuid>
 </TestCaseEntity>

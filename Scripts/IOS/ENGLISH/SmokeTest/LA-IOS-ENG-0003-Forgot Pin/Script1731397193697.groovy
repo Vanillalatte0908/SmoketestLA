@@ -33,3 +33,4 @@ Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeStaticTex
     0, 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/IOS/XCUIElementTypeScrollView'), 5)
+

@@ -17,10 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText - Enter your phone number'), 
     '85281409935')
+
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.Button - Start'), 0)
 
@@ -29,9 +31,13 @@ for (def index : (0..9)) {
 }
 
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.Button - Reset PIN'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.TextView - Security Question'), 0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText - Select a security question'), 
     0)
@@ -39,15 +45,27 @@ Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/andro
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.TextView - What is your mothers maiden name'), 
     0)
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText - Enter your answer'), 'Linkaja')
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.Button - Continue'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText (1)'), '123455')
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText (1)'), '123455')
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText (1)'), '123455')
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.Button - Re-login'), 0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText - Enter your phone number'), 
@@ -55,7 +73,8 @@ Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.Button - Start'), 0)
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/Reset Pin Normal flow/android.widget.EditText'), '123455')
 
-Mobile.closeApplication()
-
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)

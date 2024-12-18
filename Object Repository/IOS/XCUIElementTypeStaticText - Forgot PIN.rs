@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>50d032c9-9eba-4397-a3d1-0e3cd8531bc3</webElementGuid>
+      <webElementGuid>90b6e2ae-7c42-4447-96b0-e439d1ccc168</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>41001cf4-9d0c-45b1-9158-94fc0402cb9c</webElementGuid>
+      <webElementGuid>d70036d1-2929-4e2f-af67-f4eafd33b4f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b309c243-58dc-4670-937d-bcce688100fb</webElementGuid>
+      <webElementGuid>34bcf6ec-5815-4f62-ae61-ac01b3fc6471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>34.0</value>
-      <webElementGuid>3e266b15-0721-433d-a483-21bad55ff620</webElementGuid>
+      <webElementGuid>311c0ec7-b4f8-404a-9c1a-74f12be2ba61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a9105dc4-af02-4487-8e14-c5180a1fc0b9</webElementGuid>
+      <webElementGuid>93f9bbbc-a9b3-4b2d-80d1-31407cd94279</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Forgot PIN?</value>
-      <webElementGuid>f68d90ce-e9ee-48c5-ab28-28ad0997fe47</webElementGuid>
+      <webElementGuid>3f4999a2-a842-404b-a8c4-c9be246a1f04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Forgot PIN?</value>
-      <webElementGuid>50317a7d-419c-4071-8419-25b8ae58c6b0</webElementGuid>
+      <webElementGuid>a450b4d4-8300-47dd-a1d3-068a18f57a92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Forgot PIN?</value>
-      <webElementGuid>12950e69-2af5-4732-9e84-ff0e5192ad35</webElementGuid>
+      <webElementGuid>f01f9b0b-d04e-4041-8a48-13a971b58610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>136.0</value>
-      <webElementGuid>a8631996-2e52-4c39-95d2-20731ce749d9</webElementGuid>
+      <webElementGuid>25e377f6-53f3-4c5b-8e8a-a7d82ce8af2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>346.0</value>
-      <webElementGuid>0b876c24-836c-4c0f-9430-2f5f28d7805c</webElementGuid>
+      <webElementGuid>cf905098-cd43-4d52-943a-dd953f9382c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1144.0</value>
-      <webElementGuid>8e3156fd-521f-4b49-b43b-c50c27803e1b</webElementGuid>
+      <webElementGuid>bae80524-ddea-4b0d-859b-1d2e0f1a87c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,12 +101,16 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>94e108d2-0dca-40b0-a053-f4df414f00d3</webElementGuid>
+      <webElementGuid>6736cf2c-ce68-49f2-8ebf-fc91411dc0f1</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Forgot PIN?' and @name = 'Forgot PIN?' and @value = 'Forgot PIN?']</locator>
    <locatorCollection>
       <entry>
-         <key>CUSTOM</key>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Forgot PIN?</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -120,18 +124,19 @@
          <value>Forgot PIN?</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Forgot PIN?' AND name == 'Forgot PIN?' AND name == 'Forgot PIN?'</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Forgot PIN?' and @name = 'Forgot PIN?' and @value = 'Forgot PIN?']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -142,12 +147,7 @@
          <value>Forgot PIN?</value>
       </entry>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Forgot PIN?' and @name = 'Forgot PIN?' and @value = 'Forgot PIN?']</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>Forgot PIN?</value>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

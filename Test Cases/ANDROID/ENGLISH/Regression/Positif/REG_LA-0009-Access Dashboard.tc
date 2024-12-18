@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login -> Access &quot;Home&quot;, &quot;History&quot;, &quot;Pay&quot;, &quot;Inbox&quot;, and &quot;Account&quot; -> Make sure page displayed successfully</description>
+   <name>REG_LA-0009-Access Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9813b0de-8ae4-4751-bbd7-b912121e9b74</testCaseGuid>
+</TestCaseEntity>

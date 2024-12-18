@@ -36,12 +36,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('Object Repository/ANDROID/android.widget.TextView - More'), 0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Electricity'), 0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - PLN Postpaid'), 0)
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText'), '5678902788')
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Next'), 0)
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.delay(10)
+

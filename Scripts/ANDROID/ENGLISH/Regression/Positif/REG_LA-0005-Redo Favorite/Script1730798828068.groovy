@@ -24,7 +24,6 @@ import java.time.format.DateTimeFormatter
 import java.nio.file.Files
 import java.nio.file.Paths
 
-Mobile.startExistingApplication('com.telkom.mwallet')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button'), 0)
 
@@ -40,12 +39,6 @@ Mobile.delay(10)
 Mobile.takeScreenshot(folderPath + '/ Favorite' + todaysDate + '_' + nowTime + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Donate to build a mosque'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ Favorite1' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - bangun masjid'), 0)
 
 Mobile.delay(10)
 

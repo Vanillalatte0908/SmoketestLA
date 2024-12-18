@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG_LA-0010-AirplaneMode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b650dc4-77f3-435b-aa25-1c29b41f1d3e</testCaseGuid>
+</TestCaseEntity>

@@ -17,24 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('Object Repository/ANDROID/android.widget.TextView - More'), 0)
 
-Mobile.tap(findTestObject('ANDROID/android.widget.TextView - See All', [('variable') : 'see all', (945) : '', (1381) : '']),
-	10, FailureHandling.STOP_ON_FAILURE)
-Mobile .delay(10)
+Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.CompoundButton - Kartu Uang Elektronik'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.CompoundButton - Kartu Uang Elektronik'),
-	0)
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.TextView - Cable TV  Internet'), 
     0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('XL SATU')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.TextView - XL SATU'), 0)
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.EditText (1)'), '38494290')
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.Button - Next'), 0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

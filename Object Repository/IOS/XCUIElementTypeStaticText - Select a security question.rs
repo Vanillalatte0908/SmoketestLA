@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>e8cd0648-2a46-44b6-9f90-9de0e5cfb224</webElementGuid>
+      <webElementGuid>68d3e52c-3c8b-4ec6-854c-e2dec9aaddb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>00797086-dcf0-4495-82cf-32510d40f10c</webElementGuid>
+      <webElementGuid>55831cd6-b1f1-4a4a-acc6-56be9216c281</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>eebb133a-38df-448b-8918-2067339a5ec7</webElementGuid>
+      <webElementGuid>6865ddb4-cdea-43b6-8222-3c37ebd7cab2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>36.0</value>
-      <webElementGuid>03f29b39-3bb0-4965-aeef-76b8e3e1e82f</webElementGuid>
+      <webElementGuid>86946e99-4b22-4440-8ea5-a9b94252d0fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>cd4cd694-36bc-473b-95d2-2bcec3d85284</webElementGuid>
+      <webElementGuid>98378e5d-a0b0-4c6d-aa58-55beb3a81df8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Select a security question</value>
-      <webElementGuid>9ed90721-cb1b-4053-a094-0317b5e99f70</webElementGuid>
+      <webElementGuid>7e4c3555-0551-41be-aeb5-d736358a78ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Select a security question</value>
-      <webElementGuid>ed921be1-6b10-488b-be7d-9b90301a684a</webElementGuid>
+      <webElementGuid>5c8acee3-19bd-4565-8c73-580bcf3cf9f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Select a security question</value>
-      <webElementGuid>67876474-15f3-4a59-9cbe-a1a302fb6d47</webElementGuid>
+      <webElementGuid>59ad1ce1-b9ed-4232-819d-7efcc62e3b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>330.0</value>
-      <webElementGuid>6c0002d0-f2f4-4387-9bd6-22375d1eff46</webElementGuid>
+      <webElementGuid>e074660b-4c84-431a-adaa-9e2340c08240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>56.0</value>
-      <webElementGuid>df98acc8-9a73-438f-8393-c61c559f21ba</webElementGuid>
+      <webElementGuid>e3f1f19c-03cc-4d21-a996-31d7ec8924aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>462.0</value>
-      <webElementGuid>b4568ff2-6b3e-4f4d-9910-8322ffbdda2d</webElementGuid>
+      <webElementGuid>130770ba-59b4-4b36-b123-5470409635b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,12 +101,16 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>4710d987-bd9d-453d-856a-b347356a88dc</webElementGuid>
+      <webElementGuid>63195586-9517-42de-9961-fd50bc1c9cbc</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Select a security question' and @name = 'Select a security question' and @value = 'Select a security question']</locator>
    <locatorCollection>
       <entry>
-         <key>CUSTOM</key>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Select a security question</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -120,18 +124,19 @@
          <value>Select a security question</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Select a security question' AND name == 'Select a security question' AND name == 'Select a security question'</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Select a security question' and @name = 'Select a security question' and @value = 'Select a security question']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -142,12 +147,7 @@
          <value>Select a security question</value>
       </entry>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Select a security question' and @name = 'Select a security question' and @value = 'Select a security question']</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>Select a security question</value>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

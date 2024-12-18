@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG_LA-0011-Login Without OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>78fdd801-ee6a-4409-b841-4357e9dc27b3</testCaseGuid>
+</TestCaseEntity>

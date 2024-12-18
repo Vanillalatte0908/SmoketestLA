@@ -29,7 +29,8 @@ class Listener {
         // Setting the glue for Cucumber to find step definitions
         CucumberKW.GLUE = ['oneflow']  // Your package with the step definition class		
         // Starting the application before each test case
-        Mobile.startExistingApplication('com.telkom.mwallet')
+        //Mobile.startExistingApplication('com.telkom.mwallet') //ANDROID
+		Mobile.startExistingApplication('com.telkomsel.wallet') //IOS
     }
 
     @AfterTestCase

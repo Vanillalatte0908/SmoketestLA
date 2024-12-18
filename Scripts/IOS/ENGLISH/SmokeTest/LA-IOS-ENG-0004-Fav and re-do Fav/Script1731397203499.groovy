@@ -17,13 +17,13 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mainmenu_favorite_24x24'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_homepage_favorite'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mini_system_chevron_right'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Edit'), 0)
 
-Mobile.clearText(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Smokettest1'), 0)
+Mobile.clearText(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Smoketet1'), 0)
 
 Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Create a name for this transaction'), 'Smoketest II')
 

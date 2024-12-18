@@ -17,18 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ANDROID/android.widget.TextView - See All', [('variable') : 'see all', (945) : '', (1381) : '']), 
-    10, FailureHandling.STOP_ON_FAILURE)
-Mobile .delay(10)
+Mobile.tap(findTestObject('Object Repository/ANDROID/android.widget.TextView - More'), 0)
+
+Mobile.takeAreaScreenshot('', 0)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Pascabayar'), 0)
 
+Mobile.takeAreaScreenshot('', 0)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Telkomsel'), 0)
 
+Mobile.takeAreaScreenshot('', 0)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - 628119993988'), 0)
+
+Mobile.takeAreaScreenshot('', 0)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (2)'), '081113019756')
+
+Mobile.takeAreaScreenshot('', 0)
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Next (1)'), 0)

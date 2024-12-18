@@ -42,7 +42,7 @@ Mobile.delay(10)
 
 Mobile.takeScreenshot(folderPath + '/ Profileioseng2' + todaysDate + '_' + nowTime + '.png')
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Close'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - ic medium outlinetint close'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Account Settings'), 0)
 

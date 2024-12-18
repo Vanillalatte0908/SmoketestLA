@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N_REG_LA-0004-INVALID PIN 6 TIMES</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8511ea94-074d-4712-804e-a9d754763049</testCaseGuid>
+</TestCaseEntity>

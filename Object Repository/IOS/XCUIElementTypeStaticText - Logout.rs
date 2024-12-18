@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>90816b76-9c39-4f93-82b2-280e9106784d</webElementGuid>
+      <webElementGuid>db9f39b6-fe5e-413a-b377-3503e9ea12d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>14b6995e-8711-41c1-b8d1-0c19cece8a97</webElementGuid>
+      <webElementGuid>d4c83673-4ec8-4ea1-b804-aca7a7ec9521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9010c401-efb3-4eb2-b17a-f581d3578d16</webElementGuid>
+      <webElementGuid>3ed8f5a8-ac19-4f6b-8cdb-9e32b3af80a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>36.0</value>
-      <webElementGuid>c48457cf-8cde-4dc4-9f5f-fb014551321d</webElementGuid>
+      <webElementGuid>eb99e1cb-9215-449e-ba7a-b1ebc81321b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>63d26f3a-41a0-4327-adb8-a1a948732bb8</webElementGuid>
+      <webElementGuid>60ab3e14-c2da-4e1b-b738-686bcb2c20e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>b8715a37-5fcb-4bc8-9928-e56b769dfd4b</webElementGuid>
+      <webElementGuid>25cf5530-e555-433e-9490-836c34ecae22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>61261110-90ad-4e0e-8400-45d43886b53f</webElementGuid>
+      <webElementGuid>ac3d73a1-b232-444b-ac72-4a3fc396d717</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>b3930be3-e151-4afe-9d7a-176f4d5c99b5</webElementGuid>
+      <webElementGuid>b0d1063c-f7f5-4ff4-9557-d20d9d7fcde7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>96.0</value>
-      <webElementGuid>3ad90601-ff29-4495-b02a-bcf523d46cb3</webElementGuid>
+      <webElementGuid>9a59a1a4-0aed-477b-b7b9-55e53f6b1765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>366.0</value>
-      <webElementGuid>fa97d7f9-cd98-4b59-89e7-dc468bada089</webElementGuid>
+      <webElementGuid>573edef0-b6f3-4716-bc97-d45de3f29282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1526.0</value>
-      <webElementGuid>1d0a1dd0-7cc9-49a7-ae19-bfdb4328dad5</webElementGuid>
+      <webElementGuid>1e179d5b-880e-4940-8d72-5baa32d4470b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,57 +101,53 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[14]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>64a9f406-06f2-48bd-892a-e3f19d0e18c3</webElementGuid>
+      <webElementGuid>a5bb6739-3818-410a-b3b8-c8bfe017f0b7</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Logout' and @name = 'Logout' and @value = 'Logout']</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Logout' and @name = 'Logout' and @value = 'Logout']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Logout' AND name == 'Logout' AND value == 'Logout'`]</value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value>Logout</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>ID</key>
          <value>Logout</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Logout' AND name == 'Logout' AND value == 'Logout'`]</value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>NAME</key>
          <value>Logout</value>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
-         <value>XCUIElementTypeStaticText</value>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Logout' AND name == 'Logout' AND name == 'Logout'</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Logout' and @name = 'Logout' and @value = 'Logout']</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeStaticText</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[14]/XCUIElementTypeStaticText[1]</value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>ACCESSIBILITY</key>
+         <value>Logout</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

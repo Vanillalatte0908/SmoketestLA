@@ -13,11 +13,18 @@ import cucumber.api.java.en.And
 import cucumber.api.java.en.Then
 
 class LAENG {
+
 	// Initialize variables for folder paths and timestamps
 	String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
 	String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
 	String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
 	String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "loginnoootp"
+
+	// LOGIN
+	@When("I open apps linkaja")
+	def openapps() {
+		Mobile.startExistingApplication('com.telkom.mwallet')
+	}
 
 	@When("I enter the phone number {string}")
 	def enterPhoneNumber(String phoneNumber) {
@@ -539,6 +546,7 @@ class LAENG {
 		Mobile.delay(20)
 		Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.ImageButton'), 0)
 	}
+
 	//CHANGE PIN in apps
 
 	@When("I navigate to the Profile section1")
@@ -573,5 +581,9 @@ class LAENG {
 	@And("I enter the PIN {string} in the field1")
 	def enterPin(String pin) {
 		Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText (1)'), pin)
+	}
+	@And("the user confirms the relogin")
+	def confirmDo() {
+		Mobile.tap(findTestObject('Object Repository/ANDROID/Login without OTP/android.widget.Button - Re-Login'), 0)
 	}
 }

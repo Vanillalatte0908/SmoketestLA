@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeOther</value>
-      <webElementGuid>ada4f43a-69b9-4cf1-b61f-1912cf55a525</webElementGuid>
+      <webElementGuid>296dbf43-088a-40c1-853d-fb204532b79e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9a3da2d6-6fe6-42c2-b5b7-a7b5c09e5482</webElementGuid>
+      <webElementGuid>354b5318-8f63-4099-a85d-e048a137b6e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>637113f2-7486-4cc8-98b9-465c669d86e9</webElementGuid>
+      <webElementGuid>843e9be4-568e-4b83-927c-2eb82f39fae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>height</name>
       <type>Main</type>
       <value>1792.0</value>
-      <webElementGuid>1a665208-6923-487c-8a54-ee65fbeb5d6d</webElementGuid>
+      <webElementGuid>38f5bd11-8fb2-4533-b13d-18c62a5a1681</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>2be1bcc7-1210-4d3c-8b7e-5caa7841b4ec</webElementGuid>
+      <value>0</value>
+      <webElementGuid>f9582d79-5c7d-49f7-a697-98a2ddea1fb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>width</name>
       <type>Main</type>
       <value>828.0</value>
-      <webElementGuid>04b1c8b7-9afa-47a1-84c9-7c0d7eec13e1</webElementGuid>
+      <webElementGuid>850e8c86-fc9d-41fd-bbf8-38d7911c0e31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.0</value>
-      <webElementGuid>cd55250b-1683-4d6c-a790-9b18984db328</webElementGuid>
+      <webElementGuid>38726008-9d17-4567-8f23-cfcab3c7de05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,23 +69,44 @@
       <name>y</name>
       <type>Main</type>
       <value>0.0</value>
-      <webElementGuid>300dae38-413f-4d7b-8cb0-decc17766afc</webElementGuid>
+      <webElementGuid>b5a53e94-580c-45fc-b9f9-d8bea820ce56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]</value>
-      <webElementGuid>2bb3554a-c6a7-4fd3-8f23-b1f3a6734a40</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]</value>
+      <webElementGuid>f6f46039-e3b8-45dd-b9fe-12cec44cc513</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeOther']</locator>
    <locatorCollection>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>IMAGE</key>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
+         <key>ID</key>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeOther[`enabled == 1`]</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeOther' AND enabled == 1</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeOther']</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -96,31 +117,10 @@
          <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]</value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
+         <key>ACCESSIBILITY</key>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeOther[`enabled == 1`]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeOther']</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeOther' AND enabled == 1</value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

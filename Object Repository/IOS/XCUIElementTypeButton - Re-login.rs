@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>eebbb2ef-c00c-4b03-a5bb-9b128593b595</webElementGuid>
+      <webElementGuid>97649998-7103-4689-a174-08bb1cdc58a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>76dde1e7-516d-4bce-a24c-41c7d9396aa2</webElementGuid>
+      <webElementGuid>9063dab0-c313-4407-922c-0be0f85f4f06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b5760992-fa3b-4aba-ab05-e14487552fd0</webElementGuid>
+      <webElementGuid>01e0a752-1487-421d-8f3a-dd7301d08474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>92.0</value>
-      <webElementGuid>db5a7ddd-7238-4676-be54-a17c98d28d46</webElementGuid>
+      <webElementGuid>5e541d91-b327-41bb-a1bf-38f08cfc46c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>9904ffe1-62c1-40b9-a73a-ff2b23d96f22</webElementGuid>
+      <webElementGuid>832d547e-2471-4c76-91da-c44daa4f3777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Re-login</value>
-      <webElementGuid>d3c8dc56-7701-4af2-b38b-56ffa87af408</webElementGuid>
+      <webElementGuid>9343f71a-ebb0-4828-970f-315f0fcd07fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Re-login</value>
-      <webElementGuid>290cbe0b-6d6d-41eb-a4de-d9876b98d28e</webElementGuid>
+      <webElementGuid>2d3a1fba-4d9f-49e8-859c-2305bf568cb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>764.0</value>
-      <webElementGuid>f898256f-4bc2-4828-a2ef-eff4c0d86f3e</webElementGuid>
+      <webElementGuid>35065a17-990a-48e3-abf1-c221def79d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>32.0</value>
-      <webElementGuid>3823682d-4f79-46a7-bacd-4deb64ace340</webElementGuid>
+      <webElementGuid>fc68f1be-932b-4587-9417-c62b5223d68a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1600.0</value>
-      <webElementGuid>3125d7ac-1bd9-4743-9293-ba75abb9c7a1</webElementGuid>
+      <webElementGuid>fa363747-f232-43ec-987c-c4362093142e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,57 +93,53 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>ab7e4df8-2ab5-479a-bac4-90742420044a</webElementGuid>
+      <webElementGuid>b4dffb20-0016-4606-b69e-fbc10362b2c5</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Re-login' and @name = 'Re-login']</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Re-login' and @name = 'Re-login']</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Re-login' AND name == 'Re-login'`]</value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value>Re-login</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>ID</key>
          <value>Re-login</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeButton[`enabled == 1 AND label == 'Re-login' AND name == 'Re-login'`]</value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>NAME</key>
          <value>Re-login</value>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
-         <value>XCUIElementTypeButton</value>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value>type == 'XCUIElementTypeButton' AND enabled == 1 AND label == 'Re-login' AND name == 'Re-login'</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'Re-login' and @name = 'Re-login']</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeButton</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]</value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>ACCESSIBILITY</key>
+         <value>Re-login</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

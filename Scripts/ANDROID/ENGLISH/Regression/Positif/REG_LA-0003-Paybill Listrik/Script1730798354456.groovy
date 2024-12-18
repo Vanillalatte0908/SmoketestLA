@@ -21,10 +21,19 @@ Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - PLN Postpaid'), 0)
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText'), '545100853450')
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Next'), 0)
+
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.sendKeys(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.EditText - 545100853450'), '5678902788')
 
+Mobile.takeScreenshot('1', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.Button - Next'), 0)
+

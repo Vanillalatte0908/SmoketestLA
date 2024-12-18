@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N_REG_LA-0004-INVALID PIN 10 TIMES</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b55df83-cda3-4f5e-990a-3a02fee2ca2c</testCaseGuid>
+</TestCaseEntity>
