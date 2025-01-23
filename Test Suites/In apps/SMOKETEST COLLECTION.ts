@@ -114,8 +114,28 @@
             </runConfigurationData>
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/In apps/IOS/Smoketest new build</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-A025F (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R9RNC03X57D</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/In apps/ANDROID/ENGLISH/ENGLISH REGRESSION NEW BUILD</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

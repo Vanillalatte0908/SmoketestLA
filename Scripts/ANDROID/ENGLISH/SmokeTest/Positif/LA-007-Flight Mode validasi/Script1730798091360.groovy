@@ -16,27 +16,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.time.LocalDateTime
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
-import java.nio.file.Files
-import java.nio.file.Paths
-
-Mobile.startExistingApplication('com.telkom.mwallet')
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.util.Date as Date
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
+import java.nio.file.Files as Files
+import java.nio.file.Paths as Paths
 
 Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.widget.TextView - Home'), 5)
 
 String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
+
 String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
+
 String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
-String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "FlightMode"
+
+String folderPath = ('/Users/refqihussein/Desktop/smoketest/' + folderDate) + 'FlightMode'
+
 Files.createDirectories(Paths.get(folderPath))
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(((((folderPath + '/ FlightMode') + todaysDate) + '_') + nowTime) + '.png')
 
 Mobile.pressBack()
 
@@ -44,13 +45,13 @@ Mobile.tap(findTestObject('Object Repository/ANDROID/Connection/android.widget.T
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode1' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(((((folderPath + '/ FlightMode1') + todaysDate) + '_') + nowTime) + '.png')
 
 Mobile.tap(findTestObject('Object Repository/ANDROID/Connection/android.widget.Switch'), 5)
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode2' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(((((folderPath + '/ FlightMode2') + todaysDate) + '_') + nowTime) + '.png')
 
 Mobile.pressBack()
 
@@ -62,7 +63,7 @@ Mobile.waitForElementPresent(findTestObject('ANDROID/DashboardLA/Home/android.wi
 
 Mobile.delay(10)
 
-Mobile.takeScreenshot(folderPath + '/ FlightMode3' + todaysDate + '_' + nowTime + '.png')
+Mobile.takeScreenshot(((((folderPath + '/ FlightMode3') + todaysDate) + '_') + nowTime) + '.png')
 
 Mobile.pressBack()
 

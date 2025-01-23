@@ -24,71 +24,7 @@ import java.time.format.DateTimeFormatter
 import java.nio.file.Files
 import java.nio.file.Paths
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Account'), 0)
-
-String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
-String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
-String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
-String folderPath = "/Users/refqihussein/Desktop/smoketest/" + folderDate + "changesqios"
-Files.createDirectories(Paths.get(folderPath))
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Security Question (1)'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios1' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Change Now'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios2' + todaysDate + '_' + nowTime + '.png')
-
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeImage - ic_mini_tint_chevron_down'), 0)
-
-Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - What is your mothers maiden name (1)'), 
-    0, 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios3' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Enter your answer'), 'Linkaja')
-
-Mobile.tapAndHold(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Done'), 0, 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios4' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Save'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 4'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios5' + todaysDate + '_' + nowTime + '.png')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Great'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(folderPath + '/ changesqios6' + todaysDate + '_' + nowTime + '.png')
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeStaticText - Account'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Email'), 0)
 

@@ -26,31 +26,52 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>47c5c8da-f8e1-4edb-8eff-89e9c3afda09</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0009-Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d18db083-598b-4f9e-ab71-3a3e44c5a6be</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0007-Login Wihout OTP and change PIN</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cc61b301-6d21-4121-9f8e-5b8f2df29d7c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0002-Change SQ and Change Mail</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8abc9b14-20a1-481d-af8a-0fbdec440bf5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0011-Pulsa-Data</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c95ffec6-3f50-4169-b70e-5fa7d216447f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0013- Redo Favorite</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a8c1161-64d3-450e-89af-2ec83a0e2f43</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-014-Check Live Chat By profile</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5c0345ac-9ca8-4d0a-81f5-7cc7a33fd690</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-015- Check PPN</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae3d7810-3803-445e-87b2-d14fbf66b195</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0002-Change Mail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>27fec542-eb74-4d9c-8d7a-e0ec537763d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-016-Check Change Seq Question</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47c5c8da-f8e1-4edb-8eff-89e9c3afda09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/ENGLISH/Regression New Build/LA-IOS-ENG-0009-Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

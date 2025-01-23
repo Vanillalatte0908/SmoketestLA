@@ -27,47 +27,26 @@ Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField -
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Start'), 0)
 
-String folderDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('yyyyMMdd'))
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Forgot PIN'), 0)
 
-String todaysDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern('MM_dd_yy'))
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeStaticText - Security Question'), 0)
 
-String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern('HH_mm_ss'))
+Mobile.getText(findTestObject('Object Repository/XCUIElementTypeStaticText - Select a security question'), 0)
 
-String folderPath = ('/Users/refqihussein/Desktop/smoketest/' + folderDate) + 'changepinios'
+Mobile.tapAndHold(findTestObject('Object Repository/XCUIElementTypeStaticText - Select a security question'), 0, 0)
 
-Files.createDirectories(Paths.get(folderPath))
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeStaticText - What is your mothers maiden name'), 0)
 
-Mobile.delay(10)
+Mobile.sendKeys(findTestObject('Object Repository/XCUIElementTypeTextField - Enter your answer'), 'Linkaja')
 
-Mobile.takeScreenshot(((((folderPath + '/ changepin') + todaysDate) + '_') + nowTime) + '.png')
+Mobile.takeScreenshot('all.jpg', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Done'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3'), 0)
+Mobile.tap(findTestObject('IOS/XCUIElementTypeStaticText - Continue'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 4'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Account'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(((((folderPath + '/ changepin1') + todaysDate) + '_') + nowTime) + '.png')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - PIN Settings'), 0)
-
-Mobile.delay(10)
-
-Mobile.takeScreenshot(((((folderPath + '/ changepin2') + todaysDate) + '_') + nowTime) + '.png')
-
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - Change PIN'), 0)
-
-Mobile.delay(10)
 
 Mobile.takeScreenshot(((((folderPath + '/ changepin3') + todaysDate) + '_') + nowTime) + '.png')
 
@@ -83,27 +62,21 @@ Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5 (
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1 (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1 (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2 (1)'), 0)
-
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3 (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 4 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1 (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 1 (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 5 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 2 (1)'), 0)
+Mobile.tap(findTestObject('IOS/XCUIElementTypeButton - Re-login'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeStaticText - 3 (1)'), 0)
 

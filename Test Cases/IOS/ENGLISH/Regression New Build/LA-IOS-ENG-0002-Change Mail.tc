@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LA-IOS-ENG-0002-Change Mail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61e73460-7cd7-4d7a-bf08-dc7ef83a4345</testCaseGuid>
+</TestCaseEntity>

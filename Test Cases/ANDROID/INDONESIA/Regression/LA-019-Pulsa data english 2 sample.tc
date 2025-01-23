@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LA-IOS-ENG-0002-Change SQ and Change Mail</name>
+   <name>LA-019-Pulsa data english 2 sample</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>61e73460-7cd7-4d7a-bf08-dc7ef83a4345</testCaseGuid>
+   <testCaseGuid>4e1db03b-5eed-4696-8328-85f1d7daa2e8</testCaseGuid>
 </TestCaseEntity>

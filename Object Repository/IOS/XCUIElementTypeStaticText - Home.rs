@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>44e0cca2-7d35-42ab-aa93-f9da866e6963</webElementGuid>
+      <webElementGuid>761bb398-3bfc-4e12-9355-2fb89c013b98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fea32f62-e99f-4850-b01c-77b7774a6f5c</webElementGuid>
+      <webElementGuid>77993f25-47a8-4099-ba9a-cdbffa249ccf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3b39008a-08b6-45d7-802e-c0db48a5618f</webElementGuid>
+      <webElementGuid>8b7ea28a-23bc-4a00-abbc-769b09b580d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>28.0</value>
-      <webElementGuid>33a8fe68-87cd-4f7c-8aaf-20d3cc2e8c23</webElementGuid>
+      <webElementGuid>b9d776cb-0336-4c53-9f30-876fcccc2406</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>5dbe4136-826a-4ffe-ab43-d0f1e7dc1715</webElementGuid>
+      <webElementGuid>104eeac1-d9ca-4f6c-a1d0-0388fd30f9c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Home</value>
-      <webElementGuid>5f4704c4-1347-4a4c-a85f-a0c817b7d449</webElementGuid>
+      <webElementGuid>70dff808-61c4-4d51-b6eb-398fea8a95d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Home</value>
-      <webElementGuid>aa9e22de-deeb-4e9b-ad6d-e501534030a6</webElementGuid>
+      <webElementGuid>6d231d61-970d-4691-9775-b50c4dcc77f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Home</value>
-      <webElementGuid>1a0ddf9c-57ca-4e6e-a471-2fcbe1050958</webElementGuid>
+      <webElementGuid>8eafd849-7f20-4020-b408-aaec101ee74b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>60.0</value>
-      <webElementGuid>4931a3ec-2875-4ff0-b6e6-ea54a4a2bb4a</webElementGuid>
+      <webElementGuid>71b98682-be65-4e4f-b5b9-1b6087d21454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>50.0</value>
-      <webElementGuid>5dd13bef-bd80-44df-8ac6-76dbc4db8140</webElementGuid>
+      <webElementGuid>c9147beb-1c8e-442c-8610-0295a1477bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1684.0</value>
-      <webElementGuid>1340787c-3287-43d2-8478-ffc636fcd7d5</webElementGuid>
+      <webElementGuid>3bd8aa10-0abc-429f-9d8b-dfe4f6ce9fa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,33 +101,36 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
-      <webElementGuid>1c262df0-8ee3-4b2f-836c-0043371ede83</webElementGuid>
+      <webElementGuid>850d35b2-8c8d-45c3-a00d-6679aecd8b5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>visible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e58026af-1047-4fbf-a200-e7f99d8d9955</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Home' and @name = 'Home' and @value = 'Home']</locator>
    <locatorCollection>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Home' AND name == 'Home' AND value == 'Home'`]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>Home</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]</value>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value>type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'Home' AND name == 'Home' AND name == 'Home'</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Home' and @name = 'Home' and @value = 'Home']</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -135,22 +138,23 @@
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value>Home</value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Home' and @name = 'Home' and @value = 'Home']</value>
       </entry>
       <entry>
          <key>ID</key>
+         <value>Home</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'Home' AND name == 'Home' AND value == 'Home'`]</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
          <value>Home</value>
       </entry>
    </locatorCollection>
