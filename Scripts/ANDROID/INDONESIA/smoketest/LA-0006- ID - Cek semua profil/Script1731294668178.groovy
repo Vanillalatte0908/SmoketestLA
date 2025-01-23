@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.mwallet')
 
+Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/android.widget.TextView - Profil'), 3)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/INDONESIA/DASHBOARD/android.widget.TextView - Tipe Akun'), 0)
 
 Mobile.pressBack()
