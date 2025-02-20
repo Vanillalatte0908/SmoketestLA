@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.74- Generate TIcket Code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c19c5555-1c1c-41e6-b4ea-fcc9c168819d</testCaseGuid>
+</TestCaseEntity>

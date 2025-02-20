@@ -15,7 +15,7 @@
       <guid>e841713b-208a-4c5d-b484-4ffb3e99567f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ANDROID/INDONESIA/smoketest/LA-0003- ID - LoginTanpaOTP</testCaseId>
+      <testCaseId>Test Cases/ANDROID/ENGLISH/Regression/Fix Document/ID/LANGKAH PERTAMA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

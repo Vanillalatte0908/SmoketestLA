@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.77- Generate token cardless withdrawal himbara</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d58091d8-5860-414b-9c09-39eb7c7d09f2</testCaseGuid>
+</TestCaseEntity>

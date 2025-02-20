@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.2-Flight Mode validasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>619d57a6-e23a-49a7-9556-0f1168f2b67e</testCaseGuid>
+</TestCaseEntity>
