@@ -29,6 +29,8 @@ Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Pay Code'
 
 Mobile.sendKeys(findTestObject('Object Repository/android.widget.EditText'), '123455')
 
+Mobile.takeScreenshot('ss', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/MyQR and token/android.widget.ImageButton'), 0)
 
 Mobile.closeApplication()

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.221 - Make sure webview Grab</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c23ea915-2648-4311-acdd-9e563479d276</testCaseGuid>
+</TestCaseEntity>

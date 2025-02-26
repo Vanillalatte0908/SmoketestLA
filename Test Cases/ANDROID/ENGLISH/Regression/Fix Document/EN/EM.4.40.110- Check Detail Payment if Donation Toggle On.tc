@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.110- Check Detail Payment if Donation Toggle On</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fc39657-735e-43f0-b6b3-8ec0c03317fa</testCaseGuid>
+</TestCaseEntity>

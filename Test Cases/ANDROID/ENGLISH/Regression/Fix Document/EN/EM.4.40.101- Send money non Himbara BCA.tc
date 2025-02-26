@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.101- Send money non Himbara BCA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d95882b4-d802-4434-82b4-464f73d56db7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.208 - Make sure webview TNC cashout ATM Withdrawal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d64547c-d297-4ff7-a0fd-2c58b8bb8730</testCaseGuid>
+</TestCaseEntity>

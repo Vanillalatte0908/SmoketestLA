@@ -17,30 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-import io.appium.java_client.MobileElement
-import io.appium.java_client.TouchAction
-import io.appium.java_client.android.AndroidDriver
-import io.appium.java_client.touch.WaitOptions
-import io.appium.java_client.touch.offset.PointOption
-import java.time.Duration
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import org.openqa.selenium.interactions.Actions
-import org.openqa.selenium.interactions.PointerInput
-import org.openqa.selenium.interactions.Sequence
-import java.time.Duration
-import java.util.Arrays
-import com.kms.katalon.core.mobile.driver.MobileDriverFactory
-import io.appium.java_client.MobileElement
-import io.appium.java_client.TouchAction
-import io.appium.java_client.android.AndroidDriver
-import io.appium.java_client.touch.WaitOptions
-import io.appium.java_client.touch.offset.PointOption
-import java.time.Duration
 
-
-Mobile.startExistingApplication('com.telkom.mwallet -c android.intent.category.LAUNCHER 1')
-
-Mobile.delay(3)
-
-Mobile.swipe(200, 800, 200, 200)  // (startX, startY, endX, endY)
+Mobile.tap(findTestObject('Object Repository/ANDROID/DashboardLA/Home/android.widget.TextView - Profile'), 0)
 

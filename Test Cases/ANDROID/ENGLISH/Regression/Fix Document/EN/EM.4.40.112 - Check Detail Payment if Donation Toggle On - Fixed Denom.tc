@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.112 - Check Detail Payment if Donation Toggle On - Fixed Denom</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87207de0-19fe-49f7-b5eb-4480917a18cc</testCaseGuid>
+</TestCaseEntity>

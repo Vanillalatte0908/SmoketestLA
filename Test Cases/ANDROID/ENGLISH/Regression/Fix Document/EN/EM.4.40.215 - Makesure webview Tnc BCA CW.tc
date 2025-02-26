@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.215 - Makesure webview Tnc BCA CW</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17d198aa-8019-4cc4-8f41-9cdd86dae27c</testCaseGuid>
+</TestCaseEntity>

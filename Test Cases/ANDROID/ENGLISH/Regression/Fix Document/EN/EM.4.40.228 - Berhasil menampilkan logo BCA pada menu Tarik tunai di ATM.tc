@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.228 - Berhasil menampilkan logo BCA pada menu Tarik tunai di ATM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29209266-5a04-49a1-af59-323b9de59b36</testCaseGuid>
+</TestCaseEntity>

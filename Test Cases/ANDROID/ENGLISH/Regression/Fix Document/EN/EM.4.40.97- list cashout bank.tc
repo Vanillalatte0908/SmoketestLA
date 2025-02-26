@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.97- list cashout bank</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b67dc3a-3bf3-41a6-81d5-8391bb6209a2</testCaseGuid>
+</TestCaseEntity>

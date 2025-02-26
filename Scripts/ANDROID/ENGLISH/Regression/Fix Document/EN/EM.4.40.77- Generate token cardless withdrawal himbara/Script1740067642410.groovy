@@ -27,6 +27,8 @@ Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Associati
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Rp 100.000'), 0)
 
+Mobile.takeScreenshot('ss', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.pressBack()

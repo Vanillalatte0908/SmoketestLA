@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.114 - Check Donation Toggle On - Snackbar Info</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e72cbf35-e12f-4608-a784-e9944b33ac00</testCaseGuid>
+</TestCaseEntity>
