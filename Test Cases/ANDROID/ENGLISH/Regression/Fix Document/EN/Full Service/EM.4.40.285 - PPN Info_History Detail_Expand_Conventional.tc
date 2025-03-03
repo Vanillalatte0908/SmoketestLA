@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.285 - PPN Info_History Detail_Expand_Conventional</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70b18540-809b-4f57-a077-61e5d7eec11b</testCaseGuid>
+</TestCaseEntity>

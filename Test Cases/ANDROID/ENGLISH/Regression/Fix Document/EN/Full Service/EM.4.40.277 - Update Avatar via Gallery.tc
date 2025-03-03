@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.277 - Update Avatar via Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59ac259f-7aa2-408b-b8c5-916f2068f736</testCaseGuid>
+</TestCaseEntity>

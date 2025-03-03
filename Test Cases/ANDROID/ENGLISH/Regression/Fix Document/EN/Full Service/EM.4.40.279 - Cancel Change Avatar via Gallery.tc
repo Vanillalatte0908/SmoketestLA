@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.279 - Cancel Change Avatar via Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f71c606-d4fb-4ea8-889d-b6e089a61365</testCaseGuid>
+</TestCaseEntity>

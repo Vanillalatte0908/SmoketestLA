@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.283 - Conventional - Transaction Details - Download transaction receipt</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64c9ccf9-391c-4619-9a2c-ccd68e63d64e</testCaseGuid>
+</TestCaseEntity>

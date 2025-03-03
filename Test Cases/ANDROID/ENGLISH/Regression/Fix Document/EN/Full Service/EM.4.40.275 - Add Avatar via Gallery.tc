@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.275 - Add Avatar via Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d08165df-8da5-4a64-a6a1-f5bf90e46a4b</testCaseGuid>
+</TestCaseEntity>
