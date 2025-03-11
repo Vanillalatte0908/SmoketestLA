@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.149 - Scan QR Info - Berhasil akses ke menu Bayar Snap QR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc05774f-7a59-45a6-9b14-024deeb6b2d4</testCaseGuid>
+</TestCaseEntity>

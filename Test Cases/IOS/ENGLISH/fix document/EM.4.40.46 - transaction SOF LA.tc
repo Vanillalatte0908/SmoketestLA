@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.46 - transaction SOF LA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecc6b80c-06e1-4807-8ce8-6a90fc87ea2f</testCaseGuid>
+</TestCaseEntity>

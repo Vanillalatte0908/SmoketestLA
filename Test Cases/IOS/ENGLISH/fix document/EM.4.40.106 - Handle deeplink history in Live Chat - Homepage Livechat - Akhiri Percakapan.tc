@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.106 - Handle deeplink history in Live Chat - Homepage Livechat - Akhiri Percakapan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c3b1c28-ef87-4135-8d30-dde81e33e473</testCaseGuid>
+</TestCaseEntity>

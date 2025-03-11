@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.60 - Success redirection when user is not logged in - Applink Kirim Uang(P2P) - Direct to login inpu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>495f6707-2ca5-4834-8483-93b6ab0b9011</testCaseGuid>
+</TestCaseEntity>

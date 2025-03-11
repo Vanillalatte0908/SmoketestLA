@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.1 - Install application</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>941f2b01-2648-432c-99b8-bf3da14a1e06</testCaseGuid>
+</TestCaseEntity>

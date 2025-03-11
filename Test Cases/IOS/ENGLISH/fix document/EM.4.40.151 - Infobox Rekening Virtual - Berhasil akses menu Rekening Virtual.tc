@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.151 - Infobox Rekening Virtual - Berhasil akses menu Rekening Virtual</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94deb0c4-f74b-4d39-a087-198db9eafc55</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.153 -  Adjust nama user pada My QR - Berhasil menampilakm nama user di My QR tidak terpotong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b841b622-3000-4efa-87c4-c6fb34a88b13</testCaseGuid>
+</TestCaseEntity>

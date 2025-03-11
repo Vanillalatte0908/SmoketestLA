@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.41 - Add Favorite</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d51bad81-7a6f-4679-8ed7-99d0e7cae7de</testCaseGuid>
+</TestCaseEntity>

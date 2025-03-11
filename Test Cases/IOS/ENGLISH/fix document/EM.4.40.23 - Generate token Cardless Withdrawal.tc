@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.23 - Generate token Cardless Withdrawal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2b08c27-c0e3-4ce0-a50e-9c460a6c2832</testCaseGuid>
+</TestCaseEntity>

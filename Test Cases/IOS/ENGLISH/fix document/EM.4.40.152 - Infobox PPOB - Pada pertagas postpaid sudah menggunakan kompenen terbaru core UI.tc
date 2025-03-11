@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.152 - Infobox PPOB - Pada pertagas postpaid sudah menggunakan kompenen terbaru core UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e781f7c2-3790-411e-b392-7701fcfba644</testCaseGuid>
+</TestCaseEntity>

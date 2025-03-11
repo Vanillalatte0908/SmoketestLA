@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.103 - Hide BNPL Banner di homepage LA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>879fe91a-4487-4cef-9202-8419066a075e</testCaseGuid>
+</TestCaseEntity>

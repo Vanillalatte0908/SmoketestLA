@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.67 -  Make Applink for Page Recovery Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7b2c684-57b4-483d-9a2f-21a324df01c4</testCaseGuid>
+</TestCaseEntity>

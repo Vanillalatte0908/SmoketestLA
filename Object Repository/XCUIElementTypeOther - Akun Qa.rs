@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>XCUIElementTypeOther - Akun Qa</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeOther</value>
+      <webElementGuid>e25cdc85-0b0b-44de-b971-1b17123453a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accessible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6bba3e56-d762-4377-b075-5b17d759a5c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>enabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bb6f8b77-7155-48e6-8395-6a1edf93fd44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>154.0</value>
+      <webElementGuid>932d4e14-538a-4205-8377-0e883d5c3868</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>0e6b9d5c-ee91-40b7-8686-bcc066f20480</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Akun Qa</value>
+      <webElementGuid>909b3919-3706-4b1c-bd4b-7160a61c8d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Akun Qa</value>
+      <webElementGuid>75f2a9a4-72ee-438b-8711-09bdd7fd4f35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Outgoing Message
+https://linkaja.id/applink/recovery</value>
+      <webElementGuid>f0f4de54-48c3-41d2-9cc5-7c968e58c90c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>visible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>fb2cb6d2-26d2-4bf7-b4c3-e4d46b480f25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>828.0</value>
+      <webElementGuid>5e983fbe-b37c-4b61-ad1d-091f4561996a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>0.0</value>
+      <webElementGuid>611ebd6e-c79e-4f36-93d4-6b803d56a90d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>148.0</value>
+      <webElementGuid>af2abe3f-f7bd-46d6-9481-ff5d6d3c9774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]</value>
+      <webElementGuid>7012dcab-10a1-4d75-a2f6-4353d8c6ed61</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeOther' and @label = 'Akun Qa' and @name = 'Akun Qa' and @value = 'Outgoing Message
+https://linkaja.id/applink/recovery']</locator>
+   <locatorCollection>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Akun Qa</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeOther' AND enabled == 1 AND label == 'Akun Qa' AND name == 'Akun Qa' AND name == 'Outgoing Message
+https://linkaja.id/applink/recovery'</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Akun Qa</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Akun Qa</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeOther' and @label = 'Akun Qa' and @name = 'Akun Qa' and @value = 'Outgoing Message
+https://linkaja.id/applink/recovery']</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeOther</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeOther[`enabled == 1 AND label == 'Akun Qa' AND name == 'Akun Qa' AND value == 'Outgoing Message
+https://linkaja.id/applink/recovery'`]</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>IOS</platform>
+</MobileElementEntity>

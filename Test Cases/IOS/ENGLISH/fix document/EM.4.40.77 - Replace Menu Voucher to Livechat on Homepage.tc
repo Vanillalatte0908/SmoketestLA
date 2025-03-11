@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.77 - Replace Menu Voucher to Livechat on Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>959f657c-a3b6-4a76-a677-220c5dc5feb7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>XCUIElementTypeOther - Your message (2)</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeOther</value>
+      <webElementGuid>8108abcf-73b4-41de-8a5d-74708bf3f81a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accessible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e4168e7b-f73c-4d4c-be65-bcc0e1578a8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>enabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>cecc91e6-6a0b-4686-9c1b-3ae4a4367329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>72.0</value>
+      <webElementGuid>21a5deb2-0ac2-4037-acea-9e1c08112aac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>e9a3a1fa-b5de-4128-9d40-ffb05b07756a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Your message</value>
+      <webElementGuid>eb44c2f7-7349-4eab-b775-558a4b08c844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Your message</value>
+      <webElementGuid>3a20aac0-d720-4a3a-ae9c-6d981733ed47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>https://linkaja.id/applink/recovery
+7 Mar 2025 at 10.23
+</value>
+      <webElementGuid>800b0009-66c1-44eb-bc0d-0b924b75774c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>visible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>28ece025-8ba0-4c63-8a8c-dedb85f5f177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>652.0</value>
+      <webElementGuid>e46cb5bb-8040-412d-99bc-30545150ec0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>170.0</value>
+      <webElementGuid>2eea7b45-5039-4aa8-bf5c-8c2d7efaaffa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>1550.0</value>
+      <webElementGuid>686697fa-3ae0-4db9-9336-0aca8e3048ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[11]/XCUIElementTypeOther[2]</value>
+      <webElementGuid>9611951d-4a11-49c2-9e21-1afecab0ca5d</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeOther' and @label = 'Your message' and @name = 'Your message' and @value = 'https://linkaja.id/applink/recovery
+7 Mar 2025 at 10.23
+']</locator>
+   <locatorCollection>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Your message</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeOther' AND enabled == 1 AND label == 'Your message' AND name == 'Your message' AND name == 'https://linkaja.id/applink/recovery
+7 Mar 2025 at 10.23
+'</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Your message</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Your message</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeOther' and @label = 'Your message' and @name = 'Your message' and @value = 'https://linkaja.id/applink/recovery
+7 Mar 2025 at 10.23
+']</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeOther</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[11]/XCUIElementTypeOther[2]</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeOther[`enabled == 1 AND label == 'Your message' AND name == 'Your message' AND value == 'https://linkaja.id/applink/recovery
+7 Mar 2025 at 10.23
+'`]</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>IOS</platform>
+</MobileElementEntity>

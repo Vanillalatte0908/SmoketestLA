@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.28 - P2P Via Phone Number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2901c298-b7a5-4092-a531-3b3687630e76</testCaseGuid>
+</TestCaseEntity>

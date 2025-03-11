@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.148 - Detail Kirim Uang - Pilih Bank Tujuan  - Makesure sudah ada penambahan divider full layar antara subtitle</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec1d61d9-c66b-4f60-801a-2a0314af5d9c</testCaseGuid>
+</TestCaseEntity>

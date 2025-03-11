@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>XCUIElementTypeOther - Your message</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeOther</value>
+      <webElementGuid>a810bce6-7ea1-4aa5-a95a-b9d2e759a92b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accessible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3e869473-4c9d-474e-bbd1-d0b3a82e04ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>enabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>522a1008-c9dd-4a6d-abf5-da5ec460bbef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>72.0</value>
+      <webElementGuid>62247999-9e94-40a8-bf75-7f4d4194ce07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>80c62e86-109e-4e1b-81fd-c59a7a34d243</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Your message</value>
+      <webElementGuid>e3e68d56-a213-4929-8a5b-85d2c263cb77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Your message</value>
+      <webElementGuid>1017bd6b-68cc-4d04-a0e7-9e77f95f0604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>https://www.linkaja.id/applink/sate/p2p
+7 Mar 2025 at 10.23
+</value>
+      <webElementGuid>bd601b56-e6e9-4d9c-bf8d-c496af550e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>visible</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>22440ac2-fb38-4f4f-a139-84e49f8f4cff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>736.0</value>
+      <webElementGuid>874a2bc5-fce8-4814-a623-04f72f016e5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>86.0</value>
+      <webElementGuid>393f3ae5-f687-4763-9c5e-e99aeecb632c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>1480.0</value>
+      <webElementGuid>60fe9373-82be-4d63-9a47-19c25bfb2b14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[6]/XCUIElementTypeOther[2]</value>
+      <webElementGuid>f0301ace-20ec-4982-9cf2-9024e26a9cee</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeOther' and @label = 'Your message' and @name = 'Your message' and @value = 'https://www.linkaja.id/applink/sate/p2p
+7 Mar 2025 at 10.23
+']</locator>
+   <locatorCollection>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Your message</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeOther' AND enabled == 1 AND label == 'Your message' AND name == 'Your message' AND name == 'https://www.linkaja.id/applink/sate/p2p
+7 Mar 2025 at 10.23
+'</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Your message</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Your message</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeOther' and @label = 'Your message' and @name = 'Your message' and @value = 'https://www.linkaja.id/applink/sate/p2p
+7 Mar 2025 at 10.23
+']</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeOther</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[6]/XCUIElementTypeOther[2]</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeOther[`enabled == 1 AND label == 'Your message' AND name == 'Your message' AND value == 'https://www.linkaja.id/applink/sate/p2p
+7 Mar 2025 at 10.23
+'`]</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>IOS</platform>
+</MobileElementEntity>

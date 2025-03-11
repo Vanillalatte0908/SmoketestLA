@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.3 - Active or deactive syariah </name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>abb9b75d-2eb5-4b55-b466-0dfd7c93e074</testCaseGuid>
+</TestCaseEntity>

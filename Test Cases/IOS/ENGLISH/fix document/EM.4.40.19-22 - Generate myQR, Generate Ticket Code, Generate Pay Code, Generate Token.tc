@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.19-22 - Generate myQR, Generate Ticket Code, Generate Pay Code, Generate Token</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de8de8db-946e-4c2d-b59a-d272e6995644</testCaseGuid>
+</TestCaseEntity>

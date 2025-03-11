@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.147 - Add Image to Detail History - Make sure image sudah muncul pada detail history trx</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77a7cf6c-4007-4731-ac39-408fed1ea39b</testCaseGuid>
+</TestCaseEntity>

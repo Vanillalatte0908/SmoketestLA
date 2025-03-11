@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.99-101 - Cashout BCA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c58265b-3197-4c04-bd90-2fdd801737fe</testCaseGuid>
+</TestCaseEntity>

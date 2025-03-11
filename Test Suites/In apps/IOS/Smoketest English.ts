@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3fa8252d-13f4-4c9c-8244-4e6af147119b</testSuiteGuid>
    <testCaseLink>
-      <guid>f587cc2a-77e3-4dd1-8c9b-a6116ee6fc93</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0012-Update Apps</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1721ef0b-93b1-4d62-beec-8bdc5a9cc0b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -79,41 +72,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0006-Check balance and Bonus balance</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1b2467b5-f8d1-4552-9fcb-014960e817de</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0009-Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e07ae76c-ae14-40a0-8e14-3374a1a27cde</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0007-Login Wihout OTP and change PIN</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2d3911fc-73d7-4ce1-a8a6-498b05e5ebca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0009-Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>963d9543-9238-4614-9663-ba3ac6176e6a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0016-Forgot before login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>13376501-ffa2-426f-9474-527c8c535118</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/ENGLISH/SmokeTest/LA-IOS-ENG-0008-Login without OTP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

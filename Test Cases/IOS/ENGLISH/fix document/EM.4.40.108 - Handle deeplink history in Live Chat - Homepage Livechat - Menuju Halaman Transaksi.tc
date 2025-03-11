@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.108 - Handle deeplink history in Live Chat - Homepage Livechat - Menuju Halaman Transaksi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e27b103-a2d8-4252-9128-9b3485e3defd</testCaseGuid>
+</TestCaseEntity>

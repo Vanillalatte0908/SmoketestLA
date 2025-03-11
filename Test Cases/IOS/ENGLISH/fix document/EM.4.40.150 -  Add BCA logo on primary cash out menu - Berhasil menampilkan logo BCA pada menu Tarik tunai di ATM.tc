@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.150 -  Add BCA logo on primary cash out menu - Berhasil menampilkan logo BCA pada menu Tarik tunai di ATM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd08bc4c-ca83-467e-9025-b542cfe90857</testCaseGuid>
+</TestCaseEntity>

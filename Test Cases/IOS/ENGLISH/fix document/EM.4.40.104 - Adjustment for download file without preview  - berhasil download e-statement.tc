@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.104 - Adjustment for download file without preview  - berhasil download e-statement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d60b0722-b963-4431-b9dd-5165251098ef</testCaseGuid>
+</TestCaseEntity>

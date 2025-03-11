@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.16 - Change Profile Picture - From Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be08d216-1a8b-4d81-9cca-c7c4511288aa</testCaseGuid>
+</TestCaseEntity>

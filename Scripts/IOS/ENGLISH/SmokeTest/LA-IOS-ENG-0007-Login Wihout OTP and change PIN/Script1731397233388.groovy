@@ -23,7 +23,7 @@ import java.time.format.DateTimeFormatter as DateTimeFormatter
 import java.nio.file.Files as Files
 import java.nio.file.Paths as Paths
 
-Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Enter your phone number'), '85281409935')
+Mobile.sendKeys(findTestObject('Object Repository/IOS/XCUIElementTypeTextField - Enter your phone number'), '87787069388')
 
 Mobile.tap(findTestObject('Object Repository/IOS/XCUIElementTypeButton - Start'), 0)
 

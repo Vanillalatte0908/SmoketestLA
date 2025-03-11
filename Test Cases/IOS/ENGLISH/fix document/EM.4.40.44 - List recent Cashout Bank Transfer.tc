@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EM.4.40.44 - List recent Cashout Bank Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14b20c03-0331-4501-b6db-67e626f44b2a</testCaseGuid>
+</TestCaseEntity>
